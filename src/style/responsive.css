@@ -1,0 +1,70 @@
+/***RESPONSIVE***/
+
+/**********1422************/
+@media (max-width: 1422px) {
+}
+
+/**********1401************/
+@media (max-width: 1401px) {
+}
+
+/**********1369************/
+@media (max-width: 1369px) {
+}
+
+/**********1066************/
+@media (max-width: 1066px) {
+}
+
+/**********992************/
+@media (max-width: 992px) {
+}
+
+/**********890************/
+@media (max-width: 890px) {
+
+#titleNav{
+font-size:27px!important;
+
+}
+nav a{
+	font-size:16px;
+}
+
+}
+
+/**********820min************/
+
+@media (min-width: 820px) {
+	/*nav {
+		padding: 16px 50px 30px 50px;
+	}*/
+
+	nav .list {
+		display: flex;
+	}
+
+	nav .menu {
+		display: none;
+	}
+}
+
+/**********768************/
+@media (max-width: 768px) {
+}
+/**********767************/
+@media (max-width: 767px) {
+}
+
+/**********688************/
+@media (max-width: 688px) {
+}
+
+
+
+/**********425************/
+@media (max-width: 425px) {
+}
+/**********382************/
+@media (max-width: 382px) {
+}
