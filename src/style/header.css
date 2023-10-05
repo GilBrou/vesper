@@ -1,63 +1,54 @@
 /***HEADER***/
 
-
 .header {
-    position: fixed;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 16px 20px 30px 20px;
+  padding: 0 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  transition: 0.3s ease-out;  
+  transition: 0.3s ease-out;
   background: transparent;
   color: var(--whiteish);
   font-size: 16px;
   z-index: 2;
-  max-height: 100px;
 }
-
 .header a:hover {
-    color: var(--myviolet2);
+  color: var(--myviolet2);
   text-decoration: none;
-
 }
-
-#titleNav{
-font-size:33px!important;
-margin: 0;
-font-family: 'Croissant One', cursive;
-text-decoration: none;
-letter-spacing: 4px;
+#titleNav {
+  font-size: 33px !important;
+  margin: 0;
+  font-family: "Croissant One", cursive;
+  text-decoration: none;
+  letter-spacing: 4px;
 }
-
 .header ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  overflow: hidden;
-  /*background-color: #fff;*/
+  overflow: hidden;  
 }
 
 .header li a {
   display: block;
-  padding: 20px 20px;
-  border-right: 1px solid #f4f4f4;
+  /*padding: 20px 20px;*/
+  padding: 10px;
   text-decoration: none;
 }
+/*
+.header li:not(:last-child) a {
+  border-right: 1px solid var(--whiteish);
+  border-right: 1px solid var(--myviolet2);
+}
+*/
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f4f4f4;
-}
-
-.header .logo {
-  display: block;
-  float: left;
-  font-size: 2em;
-  padding: 10px 20px;
-  text-decoration: none;
+  color: var(--myviolet2);
 }
 
 /* menu */
@@ -65,7 +56,7 @@ letter-spacing: 4px;
 .header .menu {
   clear: both;
   max-height: 0;
-  transition: max-height .2s ease-out;
+  transition: max-height 0.2s ease-out;
 }
 
 /* menu icon */
@@ -81,21 +72,23 @@ letter-spacing: 4px;
 
 .header .menu-icon .navicon {
   background: #333;
+  background: red;
   display: block;
   height: 2px;
   position: relative;
-  transition: background .2s ease-out;
+  transition: background 0.2s ease-out;
   width: 18px;
 }
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
   background: #333;
-  content: '';
+  background: red !important;
+  content: "";
   display: block;
   height: 100%;
   position: absolute;
-  transition: all .2s ease-out;
+  transition: all 0.2s ease-out;
   width: 100%;
 }
 
@@ -136,12 +129,12 @@ letter-spacing: 4px;
 
 /* 48em = 768px */
 
-@media (min-width: 48em) {
+@media (min-width: 830px) {
   .header li {
     float: left;
   }
   .header li a {
-    padding: 20px 30px;
+    /*padding: 20px 30px;*/
   }
   .header .menu {
     clear: none;
