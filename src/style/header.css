@@ -1,35 +1,7 @@
 /***HEADER***/
 
-/*nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 16px 20px 30px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  transition: 0.3s ease-out;  
-  background: transparent;
-  color: var(--whiteish);
-  font-size: 16px;
-  z-index: 2;
-  max-height: 100px;*/
-
-
-/*font-family: 'Forum', cursive;*/
-
-
-
-/* header */
 
 .header {
-  /*background-color: #fff;
-  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-  position: fixed;
-  width: 100%;
-  z-index: 3;
-  */
     position: fixed;
   top: 0;
   left: 0;
@@ -44,6 +16,20 @@
   font-size: 16px;
   z-index: 2;
   max-height: 100px;
+}
+
+.header a:hover {
+    color: var(--myviolet2);
+  text-decoration: none;
+
+}
+
+#titleNav{
+font-size:33px!important;
+margin: 0;
+font-family: 'Croissant One', cursive;
+text-decoration: none;
+letter-spacing: 4px;
 }
 
 .header ul {

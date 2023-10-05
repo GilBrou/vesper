@@ -13,7 +13,7 @@ export default function Header(data) {
 
     
        <header className="header">
-        <a href className="logo" id="titleNav" href="/accueil">
+        <a  id="titleNav" href="/accueil">
         Vesper Astria
       </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
