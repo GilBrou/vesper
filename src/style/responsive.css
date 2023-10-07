@@ -23,22 +23,16 @@
 /**********890************/
 @media (max-width: 890px) {
 
-#titleNav{
-font-size:27px!important;
-
-}
 nav a{
 	font-size:16px;
 }
 
 }
 
-/**********820min************/
 
+
+/**********820min************/
 @media (min-width: 820px) {
-	/*nav {
-		padding: 16px 50px 30px 50px;
-	}*/
 
 	nav .list {
 		display: flex;
@@ -65,6 +59,10 @@ nav a{
 /**********425************/
 @media (max-width: 425px) {
 }
-/**********382************/
-@media (max-width: 382px) {
+/**********386************/
+@media (max-width: 386px) {
+  #titleNav {
+  font-size: 22px !important;
+}
+
 }

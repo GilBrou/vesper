@@ -30,25 +30,24 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  overflow: hidden;  
+  overflow: hidden;
 }
 
 .header li a {
   display: block;
-  /*padding: 20px 20px;*/
-  padding: 10px;
+  padding: 5px;
   text-decoration: none;
+  border-bottom: solid 0.5px var(--blackish);
+  backdrop-filter: blur(2px) brightness(2);
+  -webkit-backdrop-filter: blur(2px) brightness(2);
+  transition: 0.05s !important;
 }
-/*
-.header li:not(:last-child) a {
-  border-right: 1px solid var(--whiteish);
-  border-right: 1px solid var(--myviolet2);
-}
-*/
 
 .header li a:hover,
 .header .menu-btn:hover {
-  color: var(--myviolet2);
+  color: var(--blackish);
+  backdrop-filter: blur(10px) brightness(8);
+  -webkit-backdrop-filter: blur(10px) brightness(8);
 }
 
 /* menu */
@@ -57,6 +56,16 @@
   clear: both;
   max-height: 0;
   transition: max-height 0.2s ease-out;
+  position: absolute;
+  top: 65px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: left;
+  width: 100%;
+  padding: 2px 5px 0 5px;
+  letter-spacing: 2px;
+  /*text-transform: uppercase;  */
+  font-family: "Forum", cursive;
 }
 
 /* menu icon */
@@ -71,19 +80,17 @@
 }
 
 .header .menu-icon .navicon {
-  background: #333;
-  background: red;
+  background: var(--whiteish);
   display: block;
-  height: 2px;
+  height: 3px;
   position: relative;
   transition: background 0.2s ease-out;
-  width: 18px;
+  width: 30px;
 }
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
-  background: red !important;
+  background: var(--whiteish);
   content: "";
   display: block;
   height: 100%;
@@ -93,11 +100,11 @@
 }
 
 .header .menu-icon .navicon:before {
-  top: 5px;
+  top: 8px;
 }
 
 .header .menu-icon .navicon:after {
-  top: -5px;
+  top: -8px;
 }
 
 /* menu btn */
@@ -127,19 +134,41 @@
   top: 0;
 }
 
-/* 48em = 768px */
-
+/**********830min************/
 @media (min-width: 830px) {
   .header li {
     float: left;
   }
   .header li a {
-    /*padding: 20px 30px;*/
+    padding: 10px;
+    border: unset;
+    backdrop-filter: unset;
+    -webkit-backdrop-filter: unset;
   }
+  .header li a:hover {
+    color: var(--myviolet2);
+    text-decoration: none;
+    backdrop-filter: unset;
+    -webkit-backdrop-filter: unset;
+  }
+
   .header .menu {
     clear: none;
     float: right;
     max-height: none;
+    position: relative;
+    top: unset;
+    left: unset;
+    transform: unset;
+    text-align: unset;
+    width: unset;
+    padding: unset;
+    letter-spacing: unset;
+    text-transform: unset;
+    font-family: "Forum", cursive;
+    backdrop-filter: unset;
+    -webkit-backdrop-filter: unset;
+    font-family: "Courgette", cursive;
   }
   .header .menu-icon {
     display: none;
