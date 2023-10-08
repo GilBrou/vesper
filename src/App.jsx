@@ -30,9 +30,9 @@ export default function App() {
   /*Json file urls*/
 
   let Json1 =
-    "https://raw.githubusercontent.com/NoirDAbsinthe/NDAAPI/master/dataSite.json";
+    "https://raw.githubusercontent.com/GilBrou/vesper/master/src/data/data.json";
   let Json2 =
-    "https://raw.githubusercontent.com/NoirDAbsinthe/NDAAPI/master/dataBooks.json";
+    "https://raw.githubusercontent.com/GilBrou/vesper/master/src/data/data.json";
 
   /*axios config*/
 
@@ -60,8 +60,11 @@ export default function App() {
 
   /*Check if loading is complete before rendering*/
   if (Loading) {
+    console.log("LOADING");
+
     return null;
   } else {
+    console.log(Data1, Data2, Data3);
     /*DOM*/
     return (
       <Router>
