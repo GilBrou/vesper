@@ -83,28 +83,28 @@ export default function App() {
     return (
       <Router>
         {/*LOADING ANIMATION*/}
-        <div className="loaderWrapper loaderWrapper2">
-          <div className="container">
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-          </div>
-        </div>
+       {/* <div className="loaderWrapper loaderWrapper2">
+                 <div className="container">
+                   <div className="circle" />
+                   <div className="circle" />
+                   <div className="circle" />
+                   <div className="circle" />
+                   <div className="circle" />
+                   <div className="circle" />
+                   <div className="circle" />
+                   <div className="circle" />
+                   <div className="circle" />
+                   <div className="circle" />
+                   <div className="circle" />
+                   <div className="circle" />
+                   <div className="circle" />
+                   <div className="circle" />
+                   <div className="circle" />
+                   <div className="circle" />
+                 </div>
+               </div>*/}
 
-        <Header data1={Data1} />
+        <Header data={Data1} />
         <div className="app">
           {/*BACKGROUND ANIMATION*/}
           <div id="animWrapper">
