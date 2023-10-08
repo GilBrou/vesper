@@ -1,45 +1,25 @@
 {
-  "nom": "Noir 1",
-  "ressources": {
-    "logo1": "LogoS",
-    "logo2": "LogoL",
-    "kitMédia": "/Kit_Media_Noir_d'Absinthe.pdf",
+  "nom": "Vesper Astria",
+  "ressources": {        
     "logoFB": "fa fa-facebook",
     "logoTW": "fa fa-twitter",
     "logoIG": "fa fa-instagram",
-    "logoYT": "fa fa-youtube",
-    "sponso1": "Sponso1",
-    "sponso2": "Sponso2"
+    "logoYT": "fa fa-youtube"    
   },
   "menu": {
-    "menu1": "Accueil",
-    "menu2": "Univers ▾",
-    "menu2b": "Bibliothèque augmentée",
-    "menu2b": "Lecture en ligne",
-    "menu3": "Créateurs",
-    "menu4": "À propos",
-    "menu5": "Contact ▾",
-    "menu5a": "Nous contacter",
-    "menu5b": "Manuscrits & AT",
-    "menu5c": "Service-presse",
-    "menu5d": "Kit média",
-    "menu6": "Blog",
-    "menu7": "Boutique",
-    "menu8": "Manifeste éditorial"
+    "menu1": "À propos",
+    "menu2": "Consultations",
+    "menu3": "Livres",
+    "menu4": "Contact",
+    "menu5": "Blog",
+    "menu6": "Youtube"
   },
   "links": {
     "menu1L": "/accueil",
-    "menu2L": "/nos-univers",
-    "menu3L": "/createurs",
-    "menu5L": "/nouvelles"
-  },
-  "UimgLinks": {
-    "IL0": "img/",
-    "IL1": "/img/Background/",
-    "IL2": "/img/Photos/",
-    "IL3": "/img/Livres/",
-    "IL1B": ".webp",
-    "IL1B2": ".jpg"
+    "menu2L": "/à-propos",
+    "menu3L": "/livres",
+    "menu4L": "/contact",
+    "menu5L": "https://vesperastria.wordpress.com/blog/",
+    "menu6L": "https://www.youtube.com/channel/UCrvbQLe1mwTxO8kjzyqzaLQ"
   }
 }
-

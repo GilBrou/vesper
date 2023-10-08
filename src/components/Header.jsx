@@ -9,7 +9,8 @@ export default function Header(data) {
   return (
     <header className="header">
       <a id="titleNav" href="/accueil">
-        Vesper Astria
+        {/*Vesper Astria*/}
+        {data.data1 ? data.data1.nom : "chargement..."}
       </a>
       <input className="menu-btn" type="checkbox" id="menu-btn" />
       <label className="menu-icon" htmlFor="menu-btn">
