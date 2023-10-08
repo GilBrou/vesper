@@ -52,8 +52,9 @@ export default function App() {
   }, []);
 
   /*Check if loading is complete before rendering*/
-  if (Loading) {    
+  if (Loading) {
     /*LOADING ANIMATION*/
+    /*console.log("LOADING")*/
     return (
       <div className="loaderWrapper">
         <div className="container">
@@ -77,10 +78,11 @@ export default function App() {
       </div>
     );
   } else {
+    /*console.log("LOADED")*/
     /*DOM*/
     return (
       <Router>
-      {/*LOADING ANIMATION*/}
+        {/*LOADING ANIMATION*/}
         <div className="loaderWrapper loaderWrapper2">
           <div className="container">
             <div className="circle" />
