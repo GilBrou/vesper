@@ -9,9 +9,6 @@ import axios from "axios";
 /***COMPONENTS***/
 import Header from "./components/Header";
 
-/***DATA***/
-import Data00 from "./data/data.json";
-
 /***PAGES***/
 import Homepage from "./pages/Homepage";
 
@@ -21,18 +18,15 @@ export default function App() {
   const [Loading, setLoading] = useState(true);
   const [Data1, setData1] = useState({});
   const [Data2, setData2] = useState({});
-  const [Data3, setData3] = useState({});
-
   const [allDatas, setAllDatas] = useState({});
   const [allDatas2, setAllDatas2] = useState({});
-  const [allDatas3, setAllDatas3] = useState({});
 
   /*Json file urls*/
 
   let Json1 =
     "https://raw.githubusercontent.com/GilBrou/vesper/master/src/data/data.json";
   let Json2 =
-    "https://raw.githubusercontent.com/GilBrou/vesper/master/src/data/data.json";
+    "https://raw.githubusercontent.com/GilBrou/vesper/master/src/data/data2.json";
 
   /*axios config*/
 
@@ -45,13 +39,12 @@ export default function App() {
         axios.spread((...responses) => {
           const responseOne = responses[0];
           const responseTwo = responses[1];
-          setData1(Data00);
-          setData2(responseOne.data);
-          setData3(responseTwo.data);
+
+          setData1(responseOne.data);
+          setData2(responseTwo.data);
           setLoading(false);
-          setAllDatas(Data00);
+          setAllDatas(Data1);
           setAllDatas2(Data2);
-          setAllDatas3(Data3);
         }),
       );
     }
@@ -59,18 +52,59 @@ export default function App() {
   }, []);
 
   /*Check if loading is complete before rendering*/
-  if (Loading) {
-    console.log("LOADING");
-
-    return null;
+  if (Loading) {    
+    /*LOADING ANIMATION*/
+    return (
+      <div className="loaderWrapper">
+        <div className="container">
+          <div className="circle" />
+          <div className="circle" />
+          <div className="circle" />
+          <div className="circle" />
+          <div className="circle" />
+          <div className="circle" />
+          <div className="circle" />
+          <div className="circle" />
+          <div className="circle" />
+          <div className="circle" />
+          <div className="circle" />
+          <div className="circle" />
+          <div className="circle" />
+          <div className="circle" />
+          <div className="circle" />
+          <div className="circle" />
+        </div>
+      </div>
+    );
   } else {
-    console.log(Data1, Data2, Data3);
     /*DOM*/
     return (
       <Router>
+      {/*LOADING ANIMATION*/}
+        <div className="loaderWrapper loaderWrapper2">
+          <div className="container">
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+          </div>
+        </div>
+
         <Header data1={Data1} />
         <div className="app">
-        {/*BACKGROUND ANIMATION*/}        
+          {/*BACKGROUND ANIMATION*/}
           <div id="animWrapper">
             <div id="stars" />
             <div id="stars2" />

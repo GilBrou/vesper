@@ -14,6 +14,8 @@
   color: var(--whiteish);
   font-size: 16px;
   z-index: 2;
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+          animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
 }
 .header a:hover {
   color: var(--myviolet2);

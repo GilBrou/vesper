@@ -1,6 +1,7 @@
 /***INDEX***/
 
 /***COMPONENTS STYLES***/
+@import "./style/spinner.css";
 @import "./style/animations.css";
 @import "./style/header.css";
 @import "./style/intro.css";
@@ -42,6 +43,8 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden; /**/
+  /*position: relative;*/
+
 
   /*Color Variables*/
   --blackish: #0e0d0d;
@@ -81,3 +84,5 @@ a:active {
   overflow: hidden;
   pointer-events: none;
 }
+
+
