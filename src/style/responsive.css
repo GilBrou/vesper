@@ -33,7 +33,7 @@ nav a{
 
 /**********820min************/
 @media (min-width: 820px) {
-
+/*
 	nav .list {
 		display: flex;
 	}
@@ -41,6 +41,7 @@ nav a{
 	nav .menu {
 		display: none;
 	}
+	*/
 }
 
 /**********768************/

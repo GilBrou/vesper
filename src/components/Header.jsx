@@ -7,8 +7,9 @@
 export default function Header(data) {
   /*DOM*/
 
-  console.log(data);
+  /*console.log(data);*/
   return (
+  
     <header className="header">
       <a id="titleNav" href="/accueil">
         {/*Vesper Astria*/}
@@ -62,5 +63,7 @@ export default function Header(data) {
         </li>
       </ul>
     </header>
+
+    
   );
 }

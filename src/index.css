@@ -16,7 +16,6 @@ font-family: 'Croissant One', cursive;
 font-family: 'Forum', cursive;
 font-family: 'Kalam', cursive;
 */
-
 body,
 html {
   /*General*/
@@ -42,12 +41,13 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden; /**/
+  
 
   /*Color Variables*/
   --blackish: #0e0d0d;
   --whiteish: #f9f7fd;
-  --myviolet1: #ab2efb;
-  --myviolet2: #d36ef9;
+    --myviolet2: #d36ef9;
+      --myviolet3: #44274F;
   --mygold: #eddb17;
 }
 

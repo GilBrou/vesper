@@ -2,7 +2,7 @@
 
 .loaderWrapper {
   pointer-events: none;
-  z-index: 2500;
+  z-index: 0;
   padding: 0;
   margin: 0;
   width: 100%;
@@ -14,8 +14,8 @@
   overflow: hidden;
 }
 .loaderWrapper2 {
-  -webkit-animation: fade-out 1s ease-out 1s both;
-  animation: fade-out 1s ease-out 1s both;
+  -webkit-animation: fade-out 1s ease-out 1.2s both;
+  animation: fade-out 1s ease-out 1.2s both;
 }
 .container {
   position: relative;
@@ -31,6 +31,7 @@
   background: transparent;
 
   border: 3px solid rgb(255, 255, 255, 0.4);
+  /*border: 3px solid var(--myviolet3);*/
   border-radius: 50%;
   left: 0vh;
   top: 0vh;
@@ -43,6 +44,7 @@
   background: transparent;
 
   border: 3px solid rgb(255, 255, 255, 0.4);
+  /*border: 3px solid var(--myviolet3);*/
   border-radius: 50%;
   left: 2.1875vh;
   top: 2.1875vh;
@@ -55,6 +57,7 @@
   background: transparent;
 
   border: 3px solid rgb(255, 255, 255, 0.4);
+  /*border: 3px solid var(--myviolet3);*/
   border-radius: 50%;
   left: 4.375vh;
   top: 4.375vh;
@@ -67,6 +70,7 @@
   background: transparent;
 
   border: 3px solid rgb(255, 255, 255, 0.4);
+  /*border: 3px solid var(--myviolet3);*/
   border-radius: 50%;
   left: 6.5625vh;
   top: 6.5625vh;
@@ -79,6 +83,7 @@
   background: transparent;
 
   border: 3px solid rgb(255, 255, 255, 0.4);
+  /*border: 3px solid var(--myviolet3);*/
   border-radius: 50%;
   left: 8.75vh;
   top: 8.75vh;
@@ -91,6 +96,7 @@
   background: transparent;
 
   border: 3px solid rgb(255, 255, 255, 0.4);
+  /*border: 3px solid var(--myviolet3);*/
   border-radius: 50%;
   left: 10.9375vh;
   top: 10.9375vh;
@@ -103,6 +109,7 @@
   background: transparent;
 
   border: 3px solid rgb(255, 255, 255, 0.4);
+  /*border: 3px solid var(--myviolet3);*/
   border-radius: 50%;
   left: 13.125vh;
   top: 13.125vh;
@@ -115,6 +122,7 @@
   background: transparent;
 
   border: 3px solid rgb(255, 255, 255, 0.4);
+  /*border: 3px solid var(--myviolet3);*/
   border-radius: 50%;
   left: 15.3125vh;
   top: 15.3125vh;
@@ -127,6 +135,7 @@
   background: transparent;
 
   border: 3px solid rgb(255, 255, 255, 0.4);
+  /*border: 3px solid var(--myviolet3);*/
   border-radius: 50%;
   left: 17.5vh;
   top: 17.5vh;
@@ -139,6 +148,7 @@
   background: transparent;
 
   border: 3px solid rgb(255, 255, 255, 0.4);
+  /*border: 3px solid var(--myviolet3);*/
   border-radius: 50%;
   left: 19.6875vh;
   top: 19.6875vh;
@@ -151,6 +161,7 @@
   background: transparent;
 
   border: 3px solid rgb(255, 255, 255, 0.4);
+  /*border: 3px solid var(--myviolet3);*/
   border-radius: 50%;
   left: 21.875vh;
   top: 21.875vh;
@@ -163,6 +174,7 @@
   background: transparent;
 
   border: 3px solid rgb(255, 255, 255, 0.4);
+  /*border: 3px solid var(--myviolet3);*/
   border-radius: 50%;
   left: 24.0625vh;
   top: 24.0625vh;
@@ -175,6 +187,7 @@
   background: transparent;
 
   border: 3px solid rgb(255, 255, 255, 0.4);
+  /*border: 3px solid var(--myviolet3);*/
   border-radius: 50%;
   left: 26.25vh;
   top: 26.25vh;
@@ -187,6 +200,7 @@
   background: transparent;
 
   border: 3px solid rgb(255, 255, 255, 0.4);
+  /*border: 3px solid var(--myviolet3);*/
   border-radius: 50%;
   left: 28.4375vh;
   top: 28.4375vh;
@@ -199,6 +213,7 @@
   background: transparent;
 
   border: 3px solid rgb(255, 255, 255, 0.4);
+  /*border: 3px solid var(--myviolet3);*/
   border-radius: 50%;
   left: 30.625vh;
   top: 30.625vh;
@@ -211,6 +226,7 @@
   background: transparent;
 
   border: 3px solid rgb(255, 255, 255, 0.4);
+  /*border: 3px solid var(--myviolet3);*/
   border-radius: 50%;
   left: 32.8125vh;
   top: 32.8125vh;
@@ -223,6 +239,7 @@
   background: transparent;
 
   border: 3px solid rgb(255, 255, 255, 0.4);
+  /*border: 3px solid var(--myviolet3);*/
   border-radius: 50%;
   left: 35vh;
   top: 35vh;

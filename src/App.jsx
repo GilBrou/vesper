@@ -16,6 +16,8 @@ import Homepage from "./pages/Homepage";
 export default function App() {
   /*Get datas*/
   const [Loading, setLoading] = useState(true);
+  const [Loading2, setLoading2] = useState(true);
+
   const [Data1, setData1] = useState({});
   const [Data2, setData2] = useState({});
   const [allDatas, setAllDatas] = useState({});
@@ -77,33 +79,40 @@ export default function App() {
         </div>
       </div>
     );
-  } else {
-    /*console.log("LOADED")*/
+  } else if (!Loading && Loading2) {
+    setTimeout(() => {
+      setLoading2(false);
+    }, "1990");
+
     /*DOM*/
     return (
       <Router>
         {/*LOADING ANIMATION*/}
-       {/* <div className="loaderWrapper loaderWrapper2">
-                 <div className="container">
-                   <div className="circle" />
-                   <div className="circle" />
-                   <div className="circle" />
-                   <div className="circle" />
-                   <div className="circle" />
-                   <div className="circle" />
-                   <div className="circle" />
-                   <div className="circle" />
-                   <div className="circle" />
-                   <div className="circle" />
-                   <div className="circle" />
-                   <div className="circle" />
-                   <div className="circle" />
-                   <div className="circle" />
-                   <div className="circle" />
-                   <div className="circle" />
-                 </div>
-               </div>*/}
-
+        <div className="loaderWrapper loaderWrapper2">
+          <div className="container">
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+            <div className="circle" />
+          </div>
+        </div>
+      </Router>
+    );
+  } else {
+    return (
+      <Router>
         <Header data={Data1} />
         <div className="app">
           {/*BACKGROUND ANIMATION*/}
