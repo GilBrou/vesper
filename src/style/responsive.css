@@ -57,8 +57,11 @@ nav a{
 
 
 
-/**********425************/
-@media (max-width: 425px) {
+/**********541************/
+@media (max-width: 541px) {
+	.header li {  
+  max-width: 100%;}
+
 }
 /**********386************/
 @media (max-width: 386px) {

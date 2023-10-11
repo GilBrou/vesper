@@ -20,8 +20,8 @@ export default function App() {
 
   const [Data1, setData1] = useState({});
   const [Data2, setData2] = useState({});
-  const [allDatas, setAllDatas] = useState({});
-  const [allDatas2, setAllDatas2] = useState({});
+  /*const [allDatas, setAllDatas] = useState({});
+  const [allDatas2, setAllDatas2] = useState({});*/
 
   /*Json file urls*/
 
@@ -45,8 +45,8 @@ export default function App() {
           setData1(responseOne.data);
           setData2(responseTwo.data);
           setLoading(false);
-          setAllDatas(Data1);
-          setAllDatas2(Data2);
+          /*setAllDatas(Data1);
+          setAllDatas2(Data2);*/
         }),
       );
     }
@@ -56,7 +56,6 @@ export default function App() {
   /*Check if loading is complete before rendering*/
   if (Loading) {
     /*LOADING ANIMATION*/
-    /*console.log("LOADING")*/
     return (
       <div className="loaderWrapper">
         <div className="container">
@@ -80,11 +79,11 @@ export default function App() {
       </div>
     );
   } else if (!Loading && Loading2) {
+  /*Check if loading is complete and render spinner for 1,99 seconds*/
+  /*LOADING ANIMATION*/
     setTimeout(() => {
       setLoading2(false);
     }, "1990");
-
-    /*DOM*/
     return (
       <Router>
         {/*LOADING ANIMATION*/}
@@ -111,11 +110,16 @@ export default function App() {
       </Router>
     );
   } else {
+    /*Finaly render DOM*/
+    console.log(Data1)
+    /*console.log(allDatas)*/
+    console.log(Data2)
+    /*console.log(allDatas2)*/
     return (
       <Router>
         <Header data={Data1} />
         <div className="app">
-          {/*BACKGROUND ANIMATION*/}
+          {/*2ND BACKGROUND ANIMATION*/}
           <div id="animWrapper">
             <div id="stars" />
             <div id="stars2" />
