@@ -2,26 +2,48 @@
 
 /***COMPONENT***/
 export default function Intro(data) {
+  console.log(data.data1);
   /*DOM*/
   return (
-    <section id="intro">
-      <div className="intro" id="thisToggle">
-        <div className="introLeft">
-          {/*Large Animated Logo*/}
-          <img
-            fetchpriority="high"
-            src={
-              data.data1.UimgLinks.IL0 +
-              data.data1.ressources.logo2 +
-              data.data1.UimgLinks.IL1B
-            }
-            className="img-responsive logoFull"
-            alt={"Logo de " + data.data1.nom}
-          />{" "}
-          {/*Introduction Text*/}
-          <h1 className="text-center">
-            {data.data2 ? data.data2.nda.description : "loading..."}
-          </h1>
+    <section className="intro">
+      <div className="row">
+        <div className=" col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <div className="card">
+            <div className="cover item-a">
+              <h1>{data.data1 ? data.data1.menu.menu1 : "chargement..."}</h1>
+              <div className="card-back">
+                <a href={data.data1 ? data.data1.menu.menu1L : "chargement..."}>
+                  En savoir plus
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className=" col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <div className="card">
+            <div className="cover item-a">
+              <h1>{data.data1 ? data.data1.menu.menu2 : "chargement..."}</h1>
+              <div className="card-back">
+                <a href={data.data1 ? data.data1.menu.menu2L : "chargement..."}>
+                  En savoir plus
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className=" col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <div className="card">
+            <div className="cover item-a">
+              <h1>{data.data1 ? data.data1.menu.menu4 : "chargement..."}</h1>
+              <div className="card-back">
+                <a href={data.data1 ? data.data1.menu.menu4L : "chargement..."}>
+                  En savoir plus
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -8,6 +8,7 @@ import axios from "axios";
 
 /***COMPONENTS***/
 import Header from "./components/Header";
+import { Loader1, Loader2, StarsAnim } from "./components/Animations";
 
 /***PAGES***/
 import Homepage from "./pages/Homepage";
@@ -17,14 +18,10 @@ export default function App() {
   /*Get datas*/
   const [Loading, setLoading] = useState(true);
   const [Loading2, setLoading2] = useState(true);
-
   const [Data1, setData1] = useState({});
   const [Data2, setData2] = useState({});
-  /*const [allDatas, setAllDatas] = useState({});
-  const [allDatas2, setAllDatas2] = useState({});*/
 
-  /*Json file urls*/
-
+  /*Json files urls*/
   let Json1 =
     "https://raw.githubusercontent.com/GilBrou/vesper/master/src/data/data.json";
   let Json2 =
@@ -41,12 +38,9 @@ export default function App() {
         axios.spread((...responses) => {
           const responseOne = responses[0];
           const responseTwo = responses[1];
-
           setData1(responseOne.data);
           setData2(responseTwo.data);
           setLoading(false);
-          /*setAllDatas(Data1);
-          setAllDatas2(Data2);*/
         }),
       );
     }
@@ -56,75 +50,21 @@ export default function App() {
   /*Check if loading is complete before rendering*/
   if (Loading) {
     /*LOADING ANIMATION*/
-    return (
-      <div className="loaderWrapper">
-        <div className="container">
-          <div className="circle" />
-          <div className="circle" />
-          <div className="circle" />
-          <div className="circle" />
-          <div className="circle" />
-          <div className="circle" />
-          <div className="circle" />
-          <div className="circle" />
-          <div className="circle" />
-          <div className="circle" />
-          <div className="circle" />
-          <div className="circle" />
-          <div className="circle" />
-          <div className="circle" />
-          <div className="circle" />
-          <div className="circle" />
-        </div>
-      </div>
-    );
-  } else if (!Loading && Loading2) {
-  /*Check if loading is complete and render spinner for 1,99 seconds*/
-  /*LOADING ANIMATION*/
+    return <Loader1 />;
+    /*Check if loading is complete and render spinner for 1,99 seconds*/
+  } else if (!Loading && Loading2) {        
     setTimeout(() => {
       setLoading2(false);
     }, "1990");
-    return (
-      <Router>
-        {/*LOADING ANIMATION*/}
-        <div className="loaderWrapper loaderWrapper2">
-          <div className="container">
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-            <div className="circle" />
-          </div>
-        </div>
-      </Router>
-    );
+    return <Loader2 />;
   } else {
-    /*Finaly render DOM*/
-    console.log(Data1)
-    /*console.log(allDatas)*/
-    console.log(Data2)
-    /*console.log(allDatas2)*/
+    /*Finaly render DOM*/    
     return (
       <Router>
         <Header data={Data1} />
         <div className="app">
-          {/*2ND BACKGROUND ANIMATION*/}
-          <div id="animWrapper">
-            <div id="stars" />
-            <div id="stars2" />
-            <div id="stars3" />
-          </div>
+          {/*MAIN BACKGROUND ANIMATION*/}
+          <StarsAnim />
           {/*ROUTES*/}
           <Switch>
             {/*HOMEPAGE*/}

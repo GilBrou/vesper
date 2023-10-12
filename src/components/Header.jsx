@@ -7,12 +7,10 @@
 export default function Header(data) {
   /*DOM*/
 
-  /*console.log(data);*/
   return (
   
     <header className="header">
-      <a id="titleNav" href="/accueil">
-        {/*Vesper Astria*/}
+      <a id="titleNav" href="/accueil">        
         {data.data ? data.data.nom : "chargement..."}
       </a>
       <input className="menu-btn" type="checkbox" id="menu-btn" />
