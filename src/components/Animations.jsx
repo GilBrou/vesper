@@ -3,7 +3,7 @@
 export function Loader1() {
   return (
     <div className="loaderWrapper">
-      <div className="container">
+      <div className="thisContainer">
         <div className="circle" />
         <div className="circle" />
         <div className="circle" />
@@ -28,7 +28,7 @@ export function Loader1() {
 export function Loader2() {
   return (
     <div className="loaderWrapper loaderWrapper2">
-      <div className="container">
+      <div className="thisContainer">
         <div className="circle" />
         <div className="circle" />
         <div className="circle" />

@@ -14,7 +14,13 @@
   color: var(--whiteish);
   font-size: 16px;
   z-index: 2;
+    /*backdrop-filter: blur(8px) brightness(1.2);
+  -webkit-backdrop-filter: blur(8px) brightness(1.2);*/
 }
+
+
+
+
 .header a:hover {
   color: var(--myviolet2);
   text-decoration: none;

@@ -32,8 +32,8 @@ html {
   color: var(--whiteish);
   width: 100%;
   height: 100vh;
-  background-color: var(--blackish)!important;
-  background: url("./style/background/background2.webp");  
+  background-color: var(--blackish) !important;
+  background: url("./style/background/background2.webp");
   backdrop-filter: opacity(50%);
   background-color: var(--blackish);
   background-position: center;
@@ -41,13 +41,12 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   /*overflow: hidden;*/ /**/
-  
 
   /*Color Variables*/
   --blackish: #0e0d0d;
   --whiteish: #f9f7fd;
-    --myviolet2: #d36ef9;
-      --myviolet3: #44274F;
+  --myviolet2: #d36ef9;
+  --myviolet3: #44274f;
   --mygold: #eddb17;
 }
 
@@ -73,7 +72,7 @@ a:active {
   flex-direction: column;
   justify-content: center;
   margin: auto;
-  /*overflow: hidden;*//**/
+  /*overflow: hidden;*/ /**/
 }
 
 /*BACKGROUND DUST ANIMATION*/
@@ -89,6 +88,3 @@ a:active {
   overflow: hidden;
   pointer-events: none;
 }
-
-
-
