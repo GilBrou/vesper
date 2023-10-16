@@ -7,8 +7,9 @@ export default function Intro(data) {
   /*DOM*/
   return (
     <section className="intro">
+
   
-      <div className="subIntro introLeft">
+      <div className="subIntro introLeft ">
       <img src="/img/VesperAstria.webp" alt="image" />
         </div>
       
