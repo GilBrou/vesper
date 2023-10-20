@@ -7,9 +7,9 @@
     "logoYT": "fa fa-youtube"    
   },
   "menu": {
-    "menu1": "À propos",
-    "menu2": "Consultations",
-    "menu3": "Livres",
+    "menu1": "Consultations",
+    "menu2": "Livres",
+    "menu3": "À propos",    
     "menu4": "Contact",
     "menu5": "Blog",
     "menu6": "Youtube"
