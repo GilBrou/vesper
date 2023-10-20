@@ -1,64 +1,64 @@
 /***INTRO***/
 
 .intro {
-    margin-top:65px;
+  margin-top: 65px;
   width: 100vw;
   height: 100%;
   align-self: center;
-  /*border: 7px solid yellow;*/
   display: flex;
-  padding: 5vh;
+  padding: 5vh 125px;
   justify-content: center;
-
-  /*overflow: hidden;*/
   /*-webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     both;
   animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   */
 }
 
-.subIntro{
-  /*/flex: 0.1;*/
-  /*background: yellow;*/
-  text-align: justify;
+.subIntro {
+  flex: 2;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 20px;
-  width: 33%;
-  align-items: center;
+  font-family: "Forum", cursive;  
   height: fit-content;
-  font-family: 'Forum', cursive;
-  margin: auto 0 auto 0;
+  align-self: center;
 
 }
 
-.introLeft{
-}
-
-.introRight{
-    border-radius: 4px;
-   border: 8px solid rgb(255,255,255, 0.1);
-box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
-backdrop-filter: blur(3px);
--webkit-backdrop-filter: blur(3px);
-  border-radius: 7px 50% 7px 50%;  
-  padding: 25px;
+.introLeft {
+  flex: 1;
+  align-items: center;  
+  -webkit-animation: fade-in 1.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s both;
+  animation: fade-in 1.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s both; 
 
 }
-
-.introLeft img{
+.introLeft img {
   width: 100%;
   max-width: 250px;
-  border-radius: 50% 50% 7px 7px;  
-  border-radius: 50% 7px 50% 7px;  
-  padding: 8px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
+  border-radius: 50% 7px 50% 7px;
+  padding: 6px;
 }
 
-.introRight p{  
-  font-size: 20px;
+.introRight {
+  -webkit-animation: fade-in 1.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.65s both;
+  animation: fade-in 1.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.65s both; 
+  border-right: 6px solid rgb(255, 255, 255, 0.1);
+  border-left: 6px solid rgb(255, 255, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
+  margin: 0 50px;
+  border-radius: 50px;
+  height: fit-content;
+  align-self: center;
+}
+
+.introRight p {
+  font-size: 22px;
+  margin: ;
 
 }
+
+
+
+
