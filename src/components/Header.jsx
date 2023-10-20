@@ -10,7 +10,7 @@ export default function Header(data) {
   return (
   
     <header className="header">
-      <a id="titleNav" href="/accueil">        
+      <a id="titleNav" href={data.data ? data.data.links.menu0L : "chargement..."}>        
         {data.data ? data.data.nom : "chargement..."}
       </a>
       <input className="menu-btn" type="checkbox" id="menu-btn" />
