@@ -3,15 +3,17 @@
 .intro {
   margin-top: 65px;
   width: 100vw;
-  height: 100%;
+  height: fit-content;
+  min-height: 100%;
   align-self: center;
   display: flex;
-  padding: 5vh 125px;
+  padding: 5vh /*125px*/;
   justify-content: center;
   /*-webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     both;
   animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   */
+  /*background: red;*/
 }
 
 .subIntro {
@@ -20,30 +22,29 @@
   flex-direction: column;
   justify-content: center;
   padding: 20px;
-  font-family: "Forum", cursive;  
-  height: fit-content;
+  font-family: "Forum", cursive;
+  /*height: fit-content;*/
   align-self: center;
-
+  /*background: green;*/
 }
 
 .introLeft {
   flex: 1;
-  align-items: center;  
+  align-items: center;
   -webkit-animation: fade-in 1.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s both;
-  animation: fade-in 1.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s both; 
-
+  animation: fade-in 1.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s both;
 }
 .introLeft img {
   width: 100%;
   max-width: 250px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
-  border-radius: 50% 7px 50% 7px;
+  border-radius: 50% 7px;
   padding: 6px;
 }
 
 .introRight {
   -webkit-animation: fade-in 1.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.65s both;
-  animation: fade-in 1.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.65s both; 
+  animation: fade-in 1.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.65s both;
   border-right: 6px solid rgb(255, 255, 255, 0.1);
   border-left: 6px solid rgb(255, 255, 255, 0.1);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
@@ -51,14 +52,10 @@
   border-radius: 50px;
   height: fit-content;
   align-self: center;
+  text-align: justify;
 }
 
 .introRight p {
   font-size: 22px;
   margin: ;
-
 }
-
-
-
-

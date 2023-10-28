@@ -41,6 +41,8 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   /*overflow: hidden;*/ /**/
+  overflow-X: hidden;
+
 
   /*Color Variables*/
   --blackish: #0e0d0d;
