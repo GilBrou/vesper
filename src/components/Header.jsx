@@ -8,9 +8,11 @@ export default function Header(data) {
   /*DOM*/
 
   return (
-  
     <header className="header">
-      <a id="titleNav" href={data.data ? data.data.links.menu0L : "chargement..."}>        
+      <a
+        id="titleNav"
+        href={data.data ? data.data.links.menu0L : "chargement..."}
+      >
         {data.data ? data.data.nom : "chargement..."}
       </a>
       <input className="menu-btn" type="checkbox" id="menu-btn" />
@@ -61,7 +63,5 @@ export default function Header(data) {
         </li>
       </ul>
     </header>
-
-    
   );
 }

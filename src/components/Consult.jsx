@@ -5,7 +5,7 @@ export default function Consult(data) {
   /*console.log(data.data1);*/
   /*DOM*/
   return (
-    <section className="consult">
+    <section className="consult" id="consultations">
       <div className="row">
         <div className=" col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
           <div className="card">

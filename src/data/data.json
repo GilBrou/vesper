@@ -15,7 +15,7 @@
     "menu6": "Youtube"
   },
   "links": {
-    "menu0L": "/accueil",
+    "menu0L": "#",
     "menu1L": "#consultations",
     "menu2L": "#livres",
     "menu3L": "#à-propos",
