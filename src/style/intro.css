@@ -1,19 +1,15 @@
 /***INTRO***/
 
 .intro {
-  margin-top: 65px;
-  width: 100vw;
-  height: fit-content;
-  min-height: 100%;
+  /*width: 100vw;
+  height: 100vh;*/
   align-self: center;
   display: flex;
-  padding: 5vh /*125px*/;
   justify-content: center;
   /*-webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     both;
   animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   */
-  /*background: red;*/
 }
 
 .subIntro {

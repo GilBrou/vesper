@@ -35,25 +35,12 @@
 
 /**********842min************/
 @media (max-width: 842px) {
-	.intro {
-		padding: 0;
-		margin-top: 10vh !important;
-	}
-	.introRight {
-		margin: 20px;
-	}
 }
 
 /**********680************/
 @media (max-width: 680px) {
 	.intro {
-		margin-top: 20vh !important;
-		padding-top: 50px;
-	}
-
-	.introLeft img {
-		width: 100%;
-		max-width: 250px;
+		padding-top: 100px;
 	}
 }
 /**********767************/
@@ -75,12 +62,11 @@
 	#titleNav {
 		font-size: 22px !important;
 	}
-	.intro {
-		background: unset;
-		margin-top: 20vh !important;
 
-		padding-top: 20vh;
+	.intro {
+		margin-top: 50px;
 	}
+
 	.introRight {
 		margin: 0;
 		border-radius: 0px;

@@ -16,10 +16,10 @@
   },
   "links": {
     "menu0L": "/accueil",
-    "menu1L": "/consultations",
-    "menu2L": "/livres",
-    "menu3L": "/à-propos",
-    "menu4L": "/contact",
+    "menu1L": "#consultations",
+    "menu2L": "#livres",
+    "menu3L": "#à-propos",
+    "menu4L": "#contact",
     "menu5L": "https://vesperastria.wordpress.com/blog/",
     "menu6L": "https://www.youtube.com/channel/UCrvbQLe1mwTxO8kjzyqzaLQ"
   },
