@@ -68,12 +68,12 @@ export default function App() {
           {/*ROUTES*/}
           <Switch>
             {/*HOMEPAGE*/}
-            <Route exact path="/accueil">
+            <Route exact path="/">
               <Homepage data1={Data1} />
             </Route>
             {/*REDIRECT*/}
             <Route>
-              <Redirect to="/accueil" />
+              <Redirect to="/" />
             </Route>
           </Switch>
         </div>
