@@ -1,8 +1,6 @@
 /***INTRO***/
 
 .intro {
-  /*width: 100vw;
-  height: 100vh;*/
   align-self: center;
   display: flex;
   justify-content: center;
@@ -19,9 +17,8 @@
   justify-content: center;
   padding: 20px;
   font-family: "Forum", cursive;
-  /*height: fit-content;*/
   align-self: center;
-  /*background: green;*/
+
 }
 
 .introLeft {

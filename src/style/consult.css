@@ -5,7 +5,7 @@
   align-self: center;
   justify-content: center;
   margin: auto;
-  /*background: lightblue;*/
+
 }
 
 .consult .row{
@@ -13,51 +13,37 @@
   align-self: center;
   width: 70%;
   justify-content: center;
-  /*background: red;*/
 }
 
  .card {
    position: relative;
    height: 400px;
-   width: 270px;
+   width: 255px;
    margin: auto;
    transition: ease all 0.4s;
    perspective: 1200px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  filter: brightness(115%);
+  /*filter: sepia(0.1);*/
+  border-radius: 7px!important;  
+
 }
-/*
- .card:hover .cover {
-   transform: rotateX(0deg) rotateY(-180deg);
-}
- .card:hover .cover:before {
-   transform: translateZ(30px);
-}
- .card:hover .cover:after {
-   background-color: black;
-}
- .card:hover .cover h1 {
-   transform: translateZ(100px);
-}
- .card:hover .cover .price {
-   transform: translateZ(60px);
-}
- .card:hover .cover a {
-   transform: translateZ(-60px) rotatey(-180deg);
-}
-*/
+
  .card .cover {
    position: absolute;
    height: 100%;
    width: 100%;
    transform-style: preserve-3d;
    transition: ease all 2.3s;
-   background-size: cover;
+   background-size: cover!important;
    background-position: center center;
-   background-repeat: no-repeat;
+   background-repeat: no-repeat!important;
+   border-radius: 7px;
 }
  .card .cover:before {
    content: '';
    position: absolute;
-   border: 5px solid rgba(255, 255, 255, .5);
+   border: 3px solid rgba(255, 255, 255, .5);
    box-shadow: 0 0 12px rgba(0, 0, 0, .3);
    top: 20px;
    left: 20px;
@@ -67,8 +53,10 @@
    transition: ease all 2.3s;
    transform-style: preserve-3d;
    transform: translateZ(0px);
+   border-radius: 7px;
 }
  .card .cover:after {
+  border-radius: 7px;
    content: '';
    position: absolute;
    top: 0px;
@@ -79,20 +67,24 @@
    transition: ease all 1.3s;
    background: rgba(0, 0, 0, .4);
 }
+
  .card .cover.item-a {
-   /*background-image: url('https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?auto=format&fit=crop&w=600&q=80');*/
+  background: url("./background/background3.webp");
+
 }
  .card .cover.item-b {
-   /*background-image: url('https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=600&q=80');*/
+  background: url("./background/background4.webp");
 }
  .card .cover.item-c {
-   /*background-image: url('https://images.unsplash.com/photo-1525945518069-b924046d1385?auto=format&fit=crop&w=600&q=80');*/
+  background: url("./background/background6.webp");
 }
+ .card .cover.item-d {
+  background: url("./background/background5.webp");
+}
+
  .card .cover h1 {
-   font-weight: 600;
+   /*font-weight: 600;*/
    position: absolute;
-   /*bottom: 55px;
-   left: 50px;*/
    top: 95px;
    left: 50%;
    color: white;
@@ -101,13 +93,25 @@
    z-index: 3;
    font-size: 1.5em;   
    transform: translateX(-50%);
-   /*background: blue;*/
    width:80%;
    padding: 5px;
    text-align: center;
 }
-.card .cover h1 {
-color: blue;  
+.card .cover .subCard {
+  border-radius: 7px;
+   position: absolute;
+   top: 145px;
+   left: 50%;
+   color: white;
+   transform-style: preserve-3d;
+   transition: ease all 2.3s;
+   z-index: 3;
+   font-size: 1.1em;   
+   width:80%;
+   transform: translateX(-50%);
+opacity: 0.7;
+   padding: 5px;
+   text-align: center;
 }
  .card .cover .price {
    font-weight: 200;   
@@ -118,10 +122,10 @@ color: blue;
    transform-style: preserve-3d;
    transition: ease all 2.3s;
    z-index: 4;
-   font-size: 1.2em;
-   /*transform: translateZ(0px);*/
+   font-size: 1.1em;
 }
  .card .card-back {
+  border-radius: 7px;
    position: absolute;
    height: 100%;
    width: 100%;
@@ -146,9 +150,3 @@ color: blue;
    outline: none;
    text-decoration: none;
 }
-/*
- .card .card-back a:hover {
-   background-color: white;
-   color: #0b0f08;
-}
-*/

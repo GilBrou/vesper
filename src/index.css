@@ -34,7 +34,7 @@ html {
   width: 100%;
   height: 100vh;
   background-color: var(--blackish) !important;
-  background: url("./style/background/background2.webp");
+  background: url("./style/background/background1.webp");
   backdrop-filter: opacity(50%);
   background-color: var(--blackish);
   background-position: center;
