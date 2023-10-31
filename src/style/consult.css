@@ -13,7 +13,7 @@
   align-self: center;
   width: 70%;
   justify-content: center;
-  background: red;
+  /*background: red;*/
 }
 
  .card {
@@ -24,6 +24,7 @@
    transition: ease all 0.4s;
    perspective: 1200px;
 }
+/*
  .card:hover .cover {
    transform: rotateX(0deg) rotateY(-180deg);
 }
@@ -42,6 +43,7 @@
  .card:hover .cover a {
    transform: translateZ(-60px) rotatey(-180deg);
 }
+*/
  .card .cover {
    position: absolute;
    height: 100%;
@@ -91,26 +93,30 @@
    position: absolute;
    /*bottom: 55px;
    left: 50px;*/
-   bottom: 25px;
+   top: 95px;
    left: 50%;
    color: white;
    transform-style: preserve-3d;
    transition: ease all 2.3s;
    z-index: 3;
    font-size: 1.5em;   
-   transform: translateX(-50%) translateZ(0px);
+   transform: translateX(-50%);
+   /*background: blue;*/
+   width:80%;
+   padding: 5px;
+   text-align: center;
 }
  .card .cover .price {
-   font-weight: 200;
+   font-weight: 200;   
    position: absolute;
-   top: 55px;
-   right: 50px;
+   bottom: 35px;
+   right: 35px;
    color: white;
    transform-style: preserve-3d;
    transition: ease all 2.3s;
    z-index: 4;
-   font-size: 1.5em;
-   transform: translateZ(0px);
+   font-size: 1.2em;
+   /*transform: translateZ(0px);*/
 }
  .card .card-back {
    position: absolute;
@@ -137,7 +143,9 @@
    outline: none;
    text-decoration: none;
 }
+/*
  .card .card-back a:hover {
    background-color: white;
    color: #0b0f08;
 }
+*/
