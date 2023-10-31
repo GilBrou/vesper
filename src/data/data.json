@@ -29,5 +29,20 @@
     "p3": "Une nuit que l’on ne vit pas toujours très bien, ou que l’on ne regarde jamais parce qu’on nous a dit de garder sa fenêtre fermée.",
     "p4": "Vous en avez tous une qui attend que vous la fassiez exister, briller.",
     "p5": "Bienvenue chez moi, et surtout chez vous, dans le ciel des étoiles du soir."
+  },
+  "consult": {
+    "CButton": "Me contacter",
+    "C2Text": "Thème astral orienté (amoureux, professionnel, artistique, familial…)",
+    "C1Price": "à partir de 80€",
+    "C1Image": "",
+    "C2Text": "Thème astral général (tous domaines confondus)",
+    "C2Price": "à partir de 100€",
+    "C2Image": "",
+    "C3Text": "Synastrie (deux thèmes astrals pour un couple)",
+    "C3Price": "à partir de 120€",
+    "C3Image": "",
+    "C4Text": "Cartomancie (tirage à distance)",
+    "C4Price": "40€-1/2h, 60€-1h",
+    "C4Image": ""
   }
 }

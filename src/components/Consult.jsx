@@ -10,10 +10,10 @@ export default function Consult(data) {
         <div className=" col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
           <div className="card">
             <div className="cover item-a">
-              <h1>{data.data1 ? data.data1.menu.menu1 : "chargement..."}</h1>
-              <span className="price">40€</span>
+              <h1>{data.data1 ? data.data1.consult.C1Text : "chargement..."}</h1>
+              <span className="price">{data.data1 ? data.data1.consult.C1Price : "chargement..."}</span>
               <div className="card-back">
-                <a href={data.data1 ? data.data1.menu.menu1L : "chargement..."}>
+                <a href="">
                   En savoir plus
                 </a>
               </div>
@@ -36,6 +36,19 @@ export default function Consult(data) {
         </div>
 
         <div className=" col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <div className="card">
+            <div className="cover item-a">
+              <h1>{data.data1 ? data.data1.menu.menu4 : "chargement..."}</h1>
+              <span className="price">100€</span>
+              <div className="card-back">
+                <a href={data.data1 ? data.data1.menu.menu4L : "chargement..."}>
+                  En savoir plus
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+            <div className=" col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
           <div className="card">
             <div className="cover item-a">
               <h1>{data.data1 ? data.data1.menu.menu4 : "chargement..."}</h1>
