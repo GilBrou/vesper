@@ -10,8 +10,14 @@ export default function Consult(data) {
         <div className=" col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
           <div className="card">
             <div className="cover item-a">
-              <h1>{data.data1 ? data.data1.consult.C1Text : "chargement..."}</h1>
-              <span className="price">{data.data1 ? data.data1.consult.C1Price : "chargement..."}</span>
+              <h1>
+                {data.data1 ? data.data1.consult.C1Text : "chargement..."}
+              </h1>
+              <p>{data.data1 ? data.data1.consult.C1Text2 : "chargement..."}</p>
+
+              <span className="price">
+                {data.data1 ? data.data1.consult.C1Price : "chargement..."}
+              </span>
               <div className="card-back">
                 <a href="">
                   {data.data1 ? data.data1.consult.CButton : "chargement..."}
@@ -21,11 +27,17 @@ export default function Consult(data) {
           </div>
         </div>
 
-               <div className=" col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <div className=" col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
           <div className="card">
             <div className="cover item-a">
-              <h1>{data.data1 ? data.data1.consult.C2Text : "chargement..."}</h1>
-              <span className="price">{data.data1 ? data.data1.consult.C2Price : "chargement..."}</span>
+              <h1>
+                {data.data1 ? data.data1.consult.C2Text : "chargement..."}
+              </h1>
+              <p>{data.data1 ? data.data1.consult.C2Text2 : "chargement..."}</p>
+
+              <span className="price">
+                {data.data1 ? data.data1.consult.C2Price : "chargement..."}
+              </span>
               <div className="card-back">
                 <a href="">
                   {data.data1 ? data.data1.consult.CButton : "chargement..."}
@@ -35,11 +47,17 @@ export default function Consult(data) {
           </div>
         </div>
 
-               <div className=" col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <div className=" col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
           <div className="card">
             <div className="cover item-a">
-              <h1>{data.data1 ? data.data1.consult.C3Text : "chargement..."}</h1>
-              <span className="price">{data.data1 ? data.data1.consult.C3Price : "chargement..."}</span>
+              <h1>
+                {data.data1 ? data.data1.consult.C3Text : "chargement..."}
+              </h1>
+              <p>{data.data1 ? data.data1.consult.C3Text2 : "chargement..."}</p>
+
+              <span className="price">
+                {data.data1 ? data.data1.consult.C3Price : "chargement..."}
+              </span>
               <div className="card-back">
                 <a href="">
                   {data.data1 ? data.data1.consult.CButton : "chargement..."}
@@ -49,11 +67,17 @@ export default function Consult(data) {
           </div>
         </div>
 
-               <div className=" col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <div className=" col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
           <div className="card">
             <div className="cover item-a">
-              <h1>{data.data1 ? data.data1.consult.C4Text : "chargement..."}</h1>
-              <span className="price">{data.data1 ? data.data1.consult.C4Price : "chargement..."}</span>
+              <h1>
+                {data.data1 ? data.data1.consult.C4Text : "chargement..."}
+              </h1>
+              <p>{data.data1 ? data.data1.consult.C4Text2 : "chargement..."}</p>
+
+              <span className="price">
+                {data.data1 ? data.data1.consult.C4Price : "chargement..."}
+              </span>
               <div className="card-back">
                 <a href="">
                   {data.data1 ? data.data1.consult.CButton : "chargement..."}
@@ -62,10 +86,6 @@ export default function Consult(data) {
             </div>
           </div>
         </div>
-
-
- 
-     
       </div>
     </section>
   );
