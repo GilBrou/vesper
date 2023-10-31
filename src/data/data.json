@@ -32,17 +32,17 @@
   },
   "consult": {
     "CButton": "Me contacter",
-    "C1Text": "Thème astral orienté 'amour, travail, famille...)",
-    "C1Price": "à partir de 80€",
-    "C1Image": "",
+    "C1Text": "Thème astral orienté",
+    "C1Text2": "amour, travail, famille...",
+    "C1Price": "à partir de 80€",    
     "C2Text": "Thème astral général",
+    "C2Text2": "tous domaines confondus",
     "C2Price": "à partir de 100€",
-    "C2Image": "",
-    "C3Text": "Synastrie (deux thèmes pour un couple)",
+        "C3Text": "Synastrie",
+    "C3Text2": "deux thèmes pour un couple",
     "C3Price": "à partir de 120€",
-    "C3Image": "",
-    "C4Text": "Cartomancie (tirage à distance)",
-    "C4Price": "40€-1/2h, 60€-1h",
-    "C4Image": ""
+        "C4Text": "Cartomancie",
+    "C4Text2": "tirage à distance",
+    "C4Price": "40€-1/2h, 60€-1h"    
   }
 }
