@@ -5,148 +5,178 @@
   align-self: center;
   justify-content: center;
   margin: auto;
-
 }
 
-.consult .row{
+.consult .row {
   display: flex;
   align-self: center;
   width: 70%;
   justify-content: center;
 }
 
- .card {
-   position: relative;
-   height: 400px;
-   width: 255px;
-   margin: auto;
-   transition: ease all 0.4s;
-   perspective: 1200px;
+.card {
+  position: relative;
+  height: 400px;
+  width: 255px;
+  margin: auto;
+  transition: ease all 0.4s;
+  perspective: 1200px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
   filter: brightness(115%);
   /*filter: sepia(0.1);*/
-  border-radius: 7px!important;  
-
+  border-radius: 7px !important;
 }
 
- .card .cover {
-   position: absolute;
-   height: 100%;
-   width: 100%;
-   transform-style: preserve-3d;
-   transition: ease all 2.3s;
-   background-size: cover!important;
-   background-position: center center;
-   background-repeat: no-repeat!important;
-   border-radius: 7px;
+.card:hover .cover {
+  transform: rotateX(0deg) rotateY(-180deg);
 }
- .card .cover:before {
-   content: '';
-   position: absolute;
-   border: 3px solid rgba(255, 255, 255, .5);
-   box-shadow: 0 0 12px rgba(0, 0, 0, .3);
-   top: 20px;
-   left: 20px;
-   right: 20px;
-   bottom: 20px;
-   z-index: 2;
-   transition: ease all 2.3s;
-   transform-style: preserve-3d;
-   transform: translateZ(0px);
-   border-radius: 7px;
+.card:hover .cover:before {
+  transform: translateZ(30px);
 }
- .card .cover:after {
+.card:hover .cover:after {
+  background-color: black;
+}
+.card:hover .cover h1,
+.card:hover .cover p {
+  transform: translateZ(100px) translateX(-100px);
+}
+.card:hover .cover .price {
+  transform: translateZ(60px);
+}
+.card:hover .cover a {
+  transform: translateZ(-60px) rotatey(-180deg);
+}
+
+.card .cover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transform-style: preserve-3d;
+  transition: ease all 2.3s;
+  background-size: cover !important;
+  background-position: center center;
+  background-repeat: no-repeat !important;
   border-radius: 7px;
-   content: '';
-   position: absolute;
-   top: 0px;
-   left: 0px;
-   right: 0px;
-   bottom: 0px;
-   z-index: 2;
-   transition: ease all 1.3s;
-   background: rgba(0, 0, 0, .4);
+}
+.card .cover:before {
+  content: "";
+  position: absolute;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  z-index: 2;
+  transition: ease all 2.3s;
+  transform-style: preserve-3d;
+  transform: translateZ(0px);
+  border-radius: 7px;
+}
+.card .cover:after {
+  border-radius: 7px;
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 2;
+  transition: ease all 1.3s;
+  background: rgba(0, 0, 0, 0.4);
 }
 
- .card .cover.item-a {
+.card .cover.item-a,
+.card .cover.item-a .card-back {
   background: url("./background/background3.webp");
-
 }
- .card .cover.item-b {
+.card .cover.item-b,
+.card .cover.item-b .card-back {
   background: url("./background/background4.webp");
 }
- .card .cover.item-c {
+.card .cover.item-c,
+.card .cover.item-c .card-back {
   background: url("./background/background6.webp");
 }
- .card .cover.item-d {
+.card .cover.item-d,
+.card .cover.item-d .card-back {
   background: url("./background/background5.webp");
 }
 
- .card .cover h1 {
-   /*font-weight: 600;*/
-   position: absolute;
-   top: 95px;
-   left: 50%;
-   color: white;
-   transform-style: preserve-3d;
-   transition: ease all 2.3s;
-   z-index: 3;
-   font-size: 1.5em;   
-   transform: translateX(-50%);
-   width:80%;
-   padding: 5px;
-   text-align: center;
+.card .cover h1 {
+  /*font-weight: 600;*/
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  color: white;
+  transform-style: preserve-3d;
+  transition: ease all 2.3s;
+  z-index: 3;
+  font-size: 1.5em;
+  transform: translateX(-50%);
+
+  width: 80%;
+  padding: 5px;
+  text-align: center;
 }
 .card .cover .subCard {
   border-radius: 7px;
-   position: absolute;
-   top: 145px;
-   left: 50%;
-   color: white;
-   transform-style: preserve-3d;
-   transition: ease all 2.3s;
-   z-index: 3;
-   font-size: 1.1em;   
-   width:80%;
-   transform: translateX(-50%);
-opacity: 0.7;
-   padding: 5px;
-   text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform-style: preserve-3d;
+  transition: ease all 2.3s;
+  z-index: 3;
+  font-size: 1.1em;
+  width: 80%;
+  transform: translateX(-50%);
+  opacity: 0.7;
+  padding: 5px;
+  text-align: center;
 }
- .card .cover .price {
-   font-weight: 200;   
-   position: absolute;
-   bottom: 35px;
-   right: 35px;
-   color: white;
-   transform-style: preserve-3d;
-   transition: ease all 2.3s;
-   z-index: 4;
-   font-size: 1.1em;
+.card .cover .price {
+  font-weight: 200;
+  position: absolute;
+  bottom: 35px;
+  right: 35px;
+  color: white;
+  transform-style: preserve-3d;
+  transition: ease all 2.3s;
+  z-index: 4;
+  font-size: 1.1em;
 }
- .card .card-back {
+.card .card-back {
   border-radius: 7px;
-   position: absolute;
-   height: 100%;
-   width: 100%;
-   background: #0b0f08;
-   transform-style: preserve-3d;
-   transition: ease all 2.3s;
-   transform: translateZ(-1px);
-   display: flex;
-   align-items: center;
-   justify-content: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #0b0f08;
+  transform-style: preserve-3d;
+  transition: ease all 2.3s;
+  transform: translateZ(-1px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover !important;
+  background-position: center center;
+  background-repeat: no-repeat !important;
 }
- .card .card-back a {
-   transform-style: preserve-3d;
-   transition: ease transform 2.3s, ease background 0.5s;
-   transform: translateZ(-1px) rotatey(-180deg);
-   background: transparent;
-   border: 1px solid white;
-   font-weight: 200;
-   font-size: 1.3em;
-   color: white;
-   padding: 14px 32px;
-   outline: none;
-   text-decoration: none;
+.card .card-back a {
+  transform-style: preserve-3d;
+  transition: ease transform 2.3s, ease background 0.5s;
+  transform: translateZ(-1px) rotatey(-180deg);
+  background: transparent;
+  border: 1px solid white;
+  font-weight: 200;
+  font-size: 1.3em;
+  color: white;
+  padding: 14px 32px;
+  outline: none;
+  text-decoration: none;
 }
+/*
+ .card .card-back a:hover {
+   background-color: white;
+   color: #0b0f08;
+}*/
