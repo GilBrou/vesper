@@ -66,12 +66,12 @@ a:active {
   color: inherit;
 }
 .homepage {
-  /*height: 100vh;
-  width: 90vw;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: auto;
+  padding-top: 100px;
+  background: coral;
   /*overflow: hidden;*/ /**/
 }
 
@@ -87,9 +87,4 @@ a:active {
   opacity: 0.28;
   overflow: hidden;
   pointer-events: none;
-}
-
-section {
-  width: 100vw;
-  height: 100vh;
 }

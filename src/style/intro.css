@@ -1,9 +1,14 @@
 /***INTRO***/
 
 .intro {
-  align-self: center;
   display: flex;
+  align-self: center;
   justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  flex-wrap: wrap;
+  background: blue;
   /*-webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     both;
   animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -18,7 +23,6 @@
   padding: 20px;
   font-family: "Forum", cursive;
   align-self: center;
-
 }
 
 .introLeft {

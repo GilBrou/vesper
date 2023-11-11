@@ -9,7 +9,7 @@ import Consult from "../components/Consult";
 export default function Homepage(data) {
   /*DOM*/
   return (
-    <div>
+    <div id="accueil">
       <div className="homepage"> 
         <Intro data1={data.data1} />    
         <Consult data1={data.data1} />       

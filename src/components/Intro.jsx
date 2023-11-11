@@ -6,7 +6,7 @@ export default function Intro(data) {
   /*console.log(data.data1);*/
   /*DOM*/
   return (
-    <section className="intro" id="accueil">
+    <section className="intro">
       <div className="subIntro introLeft ">
         <img src="/img/VesperAstria.webp" alt="image" />
       </div>

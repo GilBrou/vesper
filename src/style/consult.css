@@ -4,24 +4,25 @@
   display: flex;
   align-self: center;
   justify-content: center;
-  margin: auto;
-}
-
-.consult .row {
-  display: flex;
-  align-self: center;
   width: 70%;
-  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  height: fit-content;
+  margin: 150px auto;
+  flex-wrap: wrap;
+  background: red;
 }
-
 .card {
+  align-self: center;
   position: relative;
   height: 400px;
   width: 255px;
-  margin: auto;
+  min-height: 400px;
+  min-width: 255px;
+  margin: 20px;
   transition: ease all 0.4s;
   perspective: 1200px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+
   filter: brightness(115%);
   /*filter: sepia(0.1);*/
   border-radius: 7px !important;
@@ -57,6 +58,7 @@
   background-position: center center;
   background-repeat: no-repeat !important;
   border-radius: 7px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
 }
 .card .cover:before {
   content: "";
@@ -167,6 +169,7 @@
   transition: ease transform 2.3s, ease background 0.5s;
   transform: translateZ(-1px) rotatey(-180deg);
   background: transparent;
+  /*background-color: var(--blackish);*/
   border: 1px solid white;
   font-weight: 200;
   font-size: 1.3em;
@@ -174,9 +177,14 @@
   padding: 14px 32px;
   outline: none;
   text-decoration: none;
+  border-radius: 7px;
+  transition: 0.6s;
 }
-/*
- .card .card-back a:hover {
-   background-color: white;
-   color: #0b0f08;
-}*/
+
+.card .card-back a:hover {
+  background-color: var(--blackish);
+
+  color: var(--myviolet2);
+  /*color: var(--myviolet2);*/
+  border-radius: 7px;
+}
