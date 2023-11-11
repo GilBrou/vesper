@@ -14,8 +14,23 @@
   color: var(--whiteish);
   font-size: 16px;
   z-index: 2;
+  background-color: var(--blackish) !important;
+  background: url("../style/background/background1.webp");
+  backdrop-filter: opacity(50%);
+  background-color: var(--blackish);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
+.subL {
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 20px;
+  font-family: "Forum", cursive;
+  font-weight: 400;
+}
 .header a:hover {
   color: var(--myviolet2);
   text-decoration: none;

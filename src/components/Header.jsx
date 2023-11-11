@@ -9,12 +9,15 @@ export default function Header(data) {
 
   return (
     <header className="header">
+    <div>
       <a
         id="titleNav"
         href={data.data ? data.data.links.menu0L : "chargement..."}
       >
         {data.data ? data.data.nom : "chargement..."}
       </a>
+      <p className="subL">Tarot & Astrologie</p>
+      </div>
       <input className="menu-btn" type="checkbox" id="menu-btn" />
       <label className="menu-icon" htmlFor="menu-btn">
         <span className="navicon" />

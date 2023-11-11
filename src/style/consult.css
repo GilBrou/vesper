@@ -4,13 +4,51 @@
   display: flex;
   align-self: center;
   justify-content: center;
-  width: 70%;
+  margin: auto;
   width: 100vw;
-  height: 100vh;
-  height: fit-content;
-  margin: 150px auto;
+  min-height: 100vh;
   flex-wrap: wrap;
-  background: red;
+  /*background: darkblue;*/
+  padding: 50px 0;
+}
+.allCards {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+  /*background: darkred;*/
+}
+.consulText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  font-family: "Forum", cursive;
+  align-self: center;
+  border-right: 6px solid rgb(255, 255, 255, 0.1);
+  border-left: 6px solid rgb(255, 255, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
+  border-radius: 50px;
+  height: fit-content;
+  align-self: center;
+  text-align: justify;
+  max-width: 70%;
+}
+.underlP {
+  font-family: "Courgette";
+  text-align: center;
+
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.consulText a {
+  font-weight: bold !important;
+}
+
+.consult .consulText a:hover {
+  color: var(--myviolet2);
+  text-decoration: none;
 }
 .card {
   align-self: center;
@@ -22,7 +60,6 @@
   margin: 20px;
   transition: ease all 0.4s;
   perspective: 1200px;
-
   filter: brightness(115%);
   /*filter: sepia(0.1);*/
   border-radius: 7px !important;
@@ -53,7 +90,7 @@
   height: 100%;
   width: 100%;
   transform-style: preserve-3d;
-  transition: ease all 2.3s;
+  transition: ease all 1s;
   background-size: cover !important;
   background-position: center center;
   background-repeat: no-repeat !important;

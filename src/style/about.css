@@ -1,6 +1,6 @@
-/***INTRO***/
+/***ABOUT***/
 
-.intro {
+.about {
   display: flex;
   align-self: center;
   justify-content: center;
@@ -12,9 +12,10 @@
     both;
   animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   */
+  background: red;
 }
 
-.subIntro {
+.about .subIntro {
   flex: 2;
   display: flex;
   flex-direction: column;
@@ -24,13 +25,13 @@
   align-self: center;
 }
 
-.introLeft {
+.about .introLeft {
   flex: 1;
   align-items: center;
   -webkit-animation: fade-in 1.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s both;
   animation: fade-in 1.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s both;
 }
-.introLeft img {
+.about .introLeft img {
   width: 100%;
   max-width: 250px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
@@ -38,7 +39,7 @@
   padding: 6px;
 }
 
-.introRight {
+.about .introRight {
   -webkit-animation: fade-in 1.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.65s both;
   animation: fade-in 1.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.65s both;
   border-right: 6px solid rgb(255, 255, 255, 0.1);
@@ -51,7 +52,7 @@
   text-align: justify;
 }
 
-.introRight p {
+.about .introRight p {
   font-size: 22px;
   margin: ;
 }

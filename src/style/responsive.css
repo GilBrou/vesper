@@ -14,6 +14,9 @@
 
 /**********1066************/
 @media (max-width: 1066px) {
+	.consulText {
+max-width: 100%;
+}
 }
 
 /**********992************/
@@ -75,11 +78,13 @@
 	.introLeft {
 		width: 100%;
 	}
+		.subL {
+  letter-spacing: 4px;
+  font-size: 15px;
+}
 }
 
 /**********386************/
 @media (max-width: 386px) {
-	.intro {
-		padding-top: 50vh;
-	}
+
 }

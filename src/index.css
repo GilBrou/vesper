@@ -6,6 +6,8 @@
 @import "./style/header.css";
 @import "./style/intro.css";
 @import "./style/consult.css";
+@import "./style/about.css";
+
 @import "./style/responsive.css";
 
 /***FONTS***/
@@ -70,8 +72,8 @@ a:active {
   flex-direction: column;
   justify-content: center;
   margin: auto;
-  padding-top: 100px;
-  background: coral;
+  /*padding-top: 10vh;*/
+  /*background: coral;*/
   /*overflow: hidden;*/ /**/
 }
 
