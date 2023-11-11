@@ -8,14 +8,10 @@
   min-height: 100vh;
   margin: auto;
   flex-direction: column;
-  /*background: blue;*/
-  /*-webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    both;
-  animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  */
-  /*background: darkred;*/
-  /*max-width: 75%;*/
-
+  padding: 75px 0;
+}
+.about p {
+  font-size: 20px !important;
 }
 
 .about .subTAbout {
@@ -26,20 +22,60 @@
   font-family: "Forum", cursive;
   align-self: center;
 }
+.about .subTAbout div {
+  display: flex;
+  align-items: center;
+}
+
+.invertF {
+  flex-direction: row-reverse;
+}
+
+.about .subTAbout div p {
+  margin-left: 25px;
+}
+
+.about .subTAbout div.invertF p {
+  margin-right: 25px;
+  margin-left: auto;
+}
+
+.sepIcon {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+.sepIcon .fa {
+  margin: auto 5px;
+  font-size: 18px;
+}
+
+.fa1 {
+  font-size: 14px !important;
+}
+.fa2 {
+  font-size: 17px !important;
+}
+
+.fa-quote-left,
+.fa-quote-right {
+  margin: auto 15px;
+}
 
 .about .subAboutUp {
   align-items: center;
   margin-top: 65px;
 }
-.about .subAboutDown {  
+.about .subAboutDown {
   border-right: 6px solid rgb(255, 255, 255, 0.1);
   border-left: 6px solid rgb(255, 255, 255, 0.1);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
   margin: 0 50px;
+  max-width: 70%;
   border-radius: 50px;
   height: fit-content;
   align-self: center;
-  text-align: justify!important;
+  text-align: justify !important;
   background: url("./background/background2.webp");
   backdrop-filter: opacity(50%);
   background-color: var(--blackish);
@@ -47,14 +83,26 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-.about .subAboutDown .img1{
-  max-width: 50%;
-  /*max-width: 50%;*/
-  /*align-self: center;*/
+.about .subAboutDown .img1 {
+  max-width: 270px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
+  border-radius: 20% 7px 7px 7px;
+  /*padding: 6px;*/
 }
-.about .subAboutDown .img2{
-  max-width: 50%;
+
+.about .subAboutDown .img3 {
+  max-width: 230px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
+  border-radius: 7px;
+  /*padding: 6px;*/
+}
+
+.about .subAboutDown .img2 {
+  margin-top: 15px;
+  max-width: 100%;
   align-self: center;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
+  border-radius: 7px 7px 35px 35px;
 }
 
 .about .subAboutDown p {

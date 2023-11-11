@@ -8,33 +8,39 @@ export default function About(data) {
   return (
     <section id="à-propos" className="about">
       <div className="subTAbout subAboutDown">
-        <img className="img1"
-        src="/img/VesperAstria2.webp" alt="image" />
+        <div>
+          <img className="img1" src="/img/VesperAstria2.webp" alt="image" />
+          <p>
+            <i className="fa fa-quote-left" aria-hidden="true"></i>
+            J’ai toujours été quelqu’un de lunaire. Du plus loin que je me
+            souvienne, on a très vite dit de moi que j’étais une petite fille
+            avec beaucoup d’imagination, une élève rêveuse, ailleurs, un peu
+            trop dans sa bulle… J’ai toujours voulu être une fée, une sorcière.
+            Les deux. J’inventais des histoires tout le temps et le temps n’a
+            rien arrangé puisque je suis autrice. J’ai toujours aimé écrire des
+            histoires en lien avec le surnaturel, l’étrange, le magique. Depuis
+            2019, je suis publiée dans une maison d’édition d’imaginaire qui se
+            nomme Noir d’Absinthe. A travers mes premiers textes, se faisait
+            déjà sentir un appel au rêve, à l’intuition, à l’impalpable, ce que
+            pouvait (et peut toujours) m’offrir de façon illimitée la prose
+            poétique. Cette intuition, plutôt qu’un phare merveilleux, je l’ai
+            longtemps laissée à mes êtres de papier, mon souffle d’encre. Je
+            l’ai souvent occultée dans ma vie, pour les autres, plus ou moins
+            inconsciemment, parce que je me pensais trop sensible et atteignable
+            par cette réalité qui ne ménage personne. Il faut croire que c’est
+            de famille : ma mère étant médium, ce paysage était déjà prêt à
+            m’accueillir.
+          </p>
+        </div>
 
-        <p>
-          J’ai toujours été quelqu’un de lunaire. Du plus loin que je me
-          souvienne, on a très vite dit de moi que j’étais une petite fille avec
-          beaucoup d’imagination, une élève rêveuse, ailleurs, un peu trop dans
-          sa bulle… J’ai toujours voulu être une fée, une sorcière. Les deux.
-          J’inventais des histoires tout le temps et le temps n’a rien arrangé
-          puisque je suis autrice.
-        </p>
-        <p>
-          J’ai toujours aimé écrire des histoires en lien avec le surnaturel,
-          l’étrange, le magique. Depuis 2019, je suis publiée dans une maison
-          d’édition d’imaginaire qui se nomme Noir d’Absinthe. A travers mes
-          premiers textes, se faisait déjà sentir un appel au rêve, à
-          l’intuition, à l’impalpable, ce que pouvait (et peut toujours)
-          m’offrir de façon illimitée la prose poétique.
-        </p>
-        <p>
-          Cette intuition, plutôt qu’un phare merveilleux, je l’ai longtemps
-          laissée à mes êtres de papier, mon souffle d’encre. Je l’ai souvent
-          occultée dans ma vie, pour les autres, plus ou moins inconsciemment,
-          parce que je me pensais trop sensible et atteignable par cette réalité
-          qui ne ménage personne. Il faut croire que c’est de famille : ma mère
-          étant médium, ce paysage était déjà prêt à m’accueillir.
-        </p>
+        <div className="sepIcon">
+          <i className="fa fa-genderless fa1" aria-hidden="true"></i>
+          <i className="fa fa-genderless fa2" aria-hidden="true"></i>
+          <i className="fa fa-sun-o" aria-hidden="true"></i>
+          <i className="fa fa-genderless fa2" aria-hidden="true"></i>
+          <i className="fa fa-genderless fa1" aria-hidden="true"></i>
+        </div>
+
         <p>
           Cette intuition-là, donc, ne l’a pas longtemps entendu de cette
           oreille. En fait, elle m’avait laissé du temps, mais, voyant que je
@@ -56,38 +62,54 @@ export default function About(data) {
           tristesse d’avoir laissé la vie derrière elle. Par la suite, en lisant
           d’autres témoignages de médiums, j’y ai trouvé des expériences
           similaires concernant ces ressentis physiques, qui m’ont d’autant plus
-          interrogée sur ce que me réservait cette sensibilité.
-        </p>
-        <p>
-          Peu de temps après ce deuil, en a suivi un autre, celui de mon oncle,
-          qui a marqué le début d’une période très difficile d’un an.
-        </p>
-        <img className="img2" src="/img/VesperLetter2.webp" alt="image" />
-
-        <p>
-          Il se trouvait que j’avais acheté des années plus tôt un premier
-          tarot, alors que je ne pratiquais pas encore. Mon regard s’était posé
-          dessus et je l’avais emporté sans réfléchir plus avant, intriguée par
-          ce qu’il dégageait. Des années plus tard, à cette période compliquée
-          que je traversais, il ne se passa pas un jour sans que j’en perce peu
-          à peu les arcanes ; le moment était venu de m’y exercer, de m’en
-          imprégner et de comprendre. De comprendre les sens multiples qu’il
-          contenait, sans parler du sens clair qu’il donnait à ce que je vivais
-          en ces moments difficiles.
-        </p>
-        <p>
-          Une forme de méditation s’est opérée, petit à petit, me nimbant d’une
-          bulle de quiétude au fur et à mesure que j’apprenais à le lire, à
-          poser des mots sur ce qu’il faisait résonner en moi, à donner des
-          couleurs et des sons aux vibrations qu’il soulevait en mon âme. Plus
-          je le tirais, d’abord pour moi puis peu à peu pour mes ami.e.s,, plus
-          ce sens devenait évident et donna lieu à une importante prise de
-          conscience. Je le faisais déjà par la parole avant, à travers mes
-          amitiés, mes projets, mon relationnel professionnel : j’encourageais
-          les autres à trouver leur voie, à parler, à s’affirmer dans leur
-          singularité tout comme je le faisais pour moi.
+          interrogée sur ce que me réservait cette sensibilité. Peu de temps
+          après ce deuil, en a suivi un autre, celui de mon oncle, qui a marqué
+          le début d’une période très difficile d’un an.
         </p>
 
+        <div className="sepIcon">
+          <i className="fa fa-genderless fa1" aria-hidden="true"></i>
+          <i className="fa fa-genderless fa2" aria-hidden="true"></i>
+          <i className="fa fa-moon-o" aria-hidden="true"></i>
+          <i className="fa fa-genderless fa2" aria-hidden="true"></i>
+          <i className="fa fa-genderless fa1" aria-hidden="true"></i>
+        </div>
+
+        <div className="invertF">
+          <img
+            className="img1 img3"
+            src="/img/VesperAstria3.webp"
+            alt="image"
+          />
+          <p>
+            Il se trouvait que j’avais acheté des années plus tôt un premier
+            tarot, alors que je ne pratiquais pas encore. Mon regard s’était
+            posé dessus et je l’avais emporté sans réfléchir plus avant,
+            intriguée par ce qu’il dégageait. Des années plus tard, à cette
+            période compliquée que je traversais, il ne se passa pas un jour
+            sans que j’en perce peu à peu les arcanes ; le moment était venu de
+            m’y exercer, de m’en imprégner et de comprendre. De comprendre les
+            sens multiples qu’il contenait, sans parler du sens clair qu’il
+            donnait à ce que je vivais en ces moments difficiles. Une forme de
+            méditation s’est opérée, petit à petit, me nimbant d’une bulle de
+            quiétude au fur et à mesure que j’apprenais à le lire, à poser des
+            mots sur ce qu’il faisait résonner en moi, à donner des couleurs et
+            des sons aux vibrations qu’il soulevait en mon âme. Plus je le
+            tirais, d’abord pour moi puis peu à peu pour mes ami.e.s,, plus ce
+            sens devenait évident et donna lieu à une importante prise de
+            conscience. Je le faisais déjà par la parole avant, à travers mes
+            amitiés, mes projets, mon relationnel professionnel : j’encourageais
+            les autres à trouver leur voie, à parler, à s’affirmer dans leur
+            singularité tout comme je le faisais pour moi.
+          </p>
+        </div>
+        <div className="sepIcon">
+          <i className="fa fa-genderless fa1" aria-hidden="true"></i>
+          <i className="fa fa-genderless fa2" aria-hidden="true"></i>
+          <i className="fa fa-star-o" aria-hidden="true"></i>
+          <i className="fa fa-genderless fa2" aria-hidden="true"></i>
+          <i className="fa fa-genderless fa1" aria-hidden="true"></i>
+        </div>
         <p>
           En parallèle à l’apprentissage du tarot, je me suis documentée
           énormément sur l’astrologie, deuxième marotte depuis l’enfance, qui
@@ -104,8 +126,10 @@ export default function About(data) {
           C’est pourquoi je souhaite vous aider à vous comprendre, en vous
           aidant à déchiffrer cette secrète alchimie qui vous constitue, à
           travers votre thème astral ou la taromancie.
+          <i className="fa fa-quote-right" aria-hidden="true"></i>
         </p>
-        <p></p>
+
+        <img className="img2" src="/img/VesperLetter2.webp" alt="image" />
       </div>
     </section>
   );
