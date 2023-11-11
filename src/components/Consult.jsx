@@ -68,13 +68,13 @@ export default function Consult(data) {
         <p className="underlP">Astrologie</p>
         <p>
           Pour toutes les offres en astrologie, j’aurais besoin de votre heure
-          et lieu de naissance exactes. Vous pouvez également me soumettre des
+          et lieu de naissance exacts. Vous pouvez également me soumettre des
           photos ou votre date de naissance pour une visualisation plus précise.
         </p>
         <p className="underlP">Cartomancie</p>
         <p>
-          Une fois réglées, les tirages privés à distance sont filmés rien que
-          pour vous puis sont envoyées sur votre boite mail via un lien
+          Une fois réglés, les tirages privés à distance sont filmés rien que
+          pour vous puis sont envoyés sur votre boite mail via un lien
           sécurisé. Je propose également des guidances générales en ligne sur ma{" "}
           <a
             href={data.data ? data.data.links.menu6L : "chargement..."}
