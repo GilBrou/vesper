@@ -39,8 +39,9 @@
   font-family: "Courgette";
   text-align: center;
 
-  text-decoration: underline;
-  text-underline-offset: 3px;
+  /*text-decoration: underline;
+  text-underline-offset: 3px;*/
+  letter-spacing: 2px;
 }
 .consulText a {
   font-weight: bold !important;

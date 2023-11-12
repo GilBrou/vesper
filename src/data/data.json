@@ -34,15 +34,20 @@
     "CButton": "Me contacter",
     "C1Text": "Thème astral orienté",
     "C1Text2": "amour, travail, famille...",
-    "C1Price": "à partir de 80€",    
+    "C1Price": "à partir de 80€",
     "C2Text": "Thème astral général",
     "C2Text2": "tous domaines confondus",
     "C2Price": "à partir de 100€",
-        "C3Text": "Synastrie",
+    "C3Text": "Synastrie",
     "C3Text2": "deux thèmes pour un couple",
     "C3Price": "à partir de 120€",
-        "C4Text": "Cartomancie",
+    "C4Text": "Cartomancie",
     "C4Text2": "tirage à distance",
-    "C4Price": "40€-30min, 60€-1h"    
+    "C4Price": "40€-30min, 60€-1h",
+    "Ctitle1": "Astrologie",
+    "Cpara1": "Pour toutes les offres en astrologie, j’aurais besoin de votre heure et lieu de naissance exacts. Vous pouvez également me soumettre des photos ou votre date de naissance pour une visualisation plus précise.",
+    "Ctitle2": "Cartomancie",
+    "Cpara2": "Une fois réglés, les tirages privés à distance sont filmés rien que pour vous puis sont envoyés sur votre boite mail via un lien sécurisé. Je propose également des guidances générales en ligne sur ma",
+    "Cpara3": "chaîne YouTube"
   }
 }
