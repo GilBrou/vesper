@@ -6,7 +6,7 @@ export default function Divider(data) {    /*DOM*/
     <div className="h-divider">
       <div className="shadow" />
       <div className="text">
-        <i>{data.data ? data.data : "chargement..."}</i>
+        <i className="dividerText">{data.data ? data.data : "chargement..."}</i>
       </div>
     </div>
   );
