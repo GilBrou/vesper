@@ -1,5 +1,4 @@
 /******CONSULT MODULE******/
-/*col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12*/
 /***COMPONENT***/
 export default function Consult(data) {
   /*DOM*/
@@ -12,7 +11,6 @@ export default function Consult(data) {
             <p className="subCard">
               {data.data1 ? data.data1.consult.C1Text2 : "chargement..."}
             </p>
-            {/*<span className="price"></span>*/}
             <div className="card-back">
               <a href={data.data1 ? data.data1.links.menu4L : "chargement..."}>
                 {data.data1 ? data.data1.consult.C1Price : "chargement..."}
@@ -75,7 +73,7 @@ export default function Consult(data) {
         <p>
           {data.data1 ? data.data1.consult.Cpara2 : "chargement..."}
           <a
-            href={data.data ? data.data.links.menu6L : "chargement..."}
+            href={data.data1 ? data.data1.links.menu6L : "chargement..."}
             target="Blank_"
           >
             {data.data1 ? data.data1.consult.Cpara3 : "chargement..."}

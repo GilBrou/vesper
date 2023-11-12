@@ -3,7 +3,6 @@
 
 /***COMPONENT***/
 export default function Intro(data) {
-  /*console.log(data.data1);*/
   /*DOM*/
   return (
     <section className="intro">

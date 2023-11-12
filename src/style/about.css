@@ -48,10 +48,12 @@
 .sepIcon .fa {
   margin: auto 5px;
   font-size: 18px;
+  align-self: center;
 }
 
 .fa1 {
   font-size: 14px !important;
+  margin-top: 2.5px !important;
 }
 .fa2 {
   font-size: 17px !important;
@@ -77,7 +79,6 @@
   align-self: center;
   text-align: justify !important;
   background: url("./background/background2.webp");
-  backdrop-filter: opacity(50%);
   background-color: var(--blackish);
   background-position: center;
   background-size: cover;

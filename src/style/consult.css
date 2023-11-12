@@ -8,7 +8,6 @@
   width: 100vw;
   min-height: 100vh;
   flex-wrap: wrap;
-  /*background: darkblue;*/
   padding: 50px 0;
 }
 .allCards {
@@ -17,7 +16,6 @@
   justify-content: center;
   margin: auto;
   flex-wrap: wrap;
-  /*background: darkred;*/
 }
 .consulText {
   display: flex;
@@ -34,13 +32,15 @@
   align-self: center;
   text-align: justify;
   max-width: 70%;
+    background: url("./background/background2.webp");
+  background-color: var(--blackish);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .underlP {
   font-family: "Courgette";
   text-align: center;
-
-  /*text-decoration: underline;
-  text-underline-offset: 3px;*/
   letter-spacing: 2px;
 }
 .consulText a {
@@ -62,7 +62,6 @@
   transition: ease all 0.4s;
   perspective: 1200px;
   filter: brightness(115%);
-  /*filter: sepia(0.1);*/
   border-radius: 7px !important;
 }
 
@@ -144,7 +143,6 @@
 }
 
 .card .cover h1 {
-  /*font-weight: 600;*/
   position: absolute;
   top: 36%;
   left: 50%;
@@ -207,7 +205,6 @@
   transition: ease transform 2.3s, ease background 0.5s;
   transform: translateZ(-1px) rotatey(-180deg);
   background: transparent;
-  /*background-color: var(--blackish);*/
   border: 1px solid white;
   font-weight: 200;
   font-size: 1.3em;
@@ -221,8 +218,6 @@
 
 .card .card-back a:hover {
   background-color: var(--blackish);
-
   color: var(--myviolet2);
-  /*color: var(--myviolet2);*/
   border-radius: 7px;
 }

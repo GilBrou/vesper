@@ -1,8 +1,5 @@
 /******HEADER MODULE******/
 
-/***GENERAL***/
-/*import { Link } from "react-router-dom";*/
-
 /***COMPONENT***/
 export default function Header(data) {
   /*DOM*/
