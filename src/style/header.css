@@ -22,7 +22,6 @@
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  
 }
 
 .subL {
@@ -174,15 +173,15 @@
   top: 0;
 }
 
-/**********880max************/
-@media (max-width: 880px) {
+/**********894max************/
+@media (max-width: 894px) {
   .header li {
     background: var(--blackish);
   }
 }
 
-/**********880min************/
-@media (min-width: 880px) {
+/**********894min************/
+@media (min-width: 894px) {
   .header li {
     float: left;
     backdrop-filter: unset;

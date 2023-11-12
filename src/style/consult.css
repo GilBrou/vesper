@@ -32,7 +32,7 @@
   align-self: center;
   text-align: justify;
   max-width: 70%;
-    background: url("./background/background2.webp");
+  background: url("./background/background2.webp");
   background-color: var(--blackish);
   background-position: center;
   background-size: cover;

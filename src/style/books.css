@@ -47,14 +47,11 @@
 .bookButton {
   display: flex;
   justify-content: center;
-  /*width:80%;*/
-  /*background: blue;*/
   margin: auto;
   flex-wrap: wrap;
 }
 
 .bookButton2 {
-  /*background: red!important;*/
   width: 100%;
   }
 .bookButton .fa {
@@ -64,9 +61,8 @@
   margin: auto;
 }
 .bookButton a {
-  background: var(--myviolet2);
-  background: rgba(250, 250, 250, 0.1);
-  border: 1px solid var(--whiteish);
+/*  background: rgba(250, 250, 250, 0.1);*/
+  border: 1px solid rgba(250, 250, 250, 0.4);
   font-weight: 300;
   padding: 5px;
   text-decoration: none;
@@ -83,7 +79,7 @@
 width: 65%;}
 .bookButton a:hover {
   transform: scale(1.1);
-  background: var(--blackish);
+  /*background: var(--blackish);*/
   color: var(--myviolet2);
 }
 
@@ -169,7 +165,7 @@ width: 65%;}
   transform: rotateY(30deg);
 }
 
-.cover {
+.bookCover {
   position: absolute;
   left: 0;
   top: 0;
@@ -197,7 +193,7 @@ width: 65%;}
   transform-origin: 0;
 }
 
-.cover:hover {
+.bookCover:hover {
   width: 210px;
 
   -webkit-transform: rotateY(-20deg);

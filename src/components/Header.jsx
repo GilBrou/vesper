@@ -6,20 +6,25 @@ export default function Header(data) {
 
   return (
     <header className="header">
-    <div>
-      <a
-        id="titleNav"
-        href={data.data ? data.data.links.menu0L : "chargement..."}
-      >
-        {data.data ? data.data.nom : "chargement..."}
-      </a>
-      <p className="subL">Tarot & Astrologie</p>
+      <div>
+        <a
+          id="titleNav"
+          href={data.data ? data.data.links.menu0L : "chargement..."}
+        >
+          {data.data ? data.data.nom : "chargement..."}
+        </a>
+        <p className="subL">Tarot & Astrologie</p>
       </div>
       <input className="menu-btn" type="checkbox" id="menu-btn" />
       <label className="menu-icon" htmlFor="menu-btn">
         <span className="navicon" />
       </label>
       <ul className="menu">
+        <li>
+          <a href={data.data ? data.data.links.menu0L : "chargement..."}>
+            Accueil
+          </a>
+        </li>
         <li>
           <a href={data.data ? data.data.links.menu1L : "chargement..."}>
             {data.data ? data.data.menu.menu1 : "chargement..."}

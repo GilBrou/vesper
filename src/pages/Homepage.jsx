@@ -7,6 +7,7 @@ import About from "../components/About";
 import Books from "../components/Books";
 import Divider from "../components/Divider";
 
+
 /***COMPONENT***/
 export default function Homepage(data) {
   /*DOM*/
