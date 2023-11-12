@@ -80,7 +80,6 @@ export default function Consult(data) {
           >
             {data.data1 ? data.data1.consult.Cpara3 : "chargement..."}
           </a>
-          .
         </p>
       </div>
     </section>
