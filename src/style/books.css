@@ -1,14 +1,34 @@
 /***INTRO***/
 
-#livres.intro {
+#livres {
   display: flex;
   align-self: center;
   flex-direction: row-reverse;
   justify-content: center;
-  max-width: 70%;
+  max-width: 75%;
   min-height: 100vh;
 }
+.rowBook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
+.rowBook p {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Croissant One";
+  font-size: 22px !important;
+  margin-bottom: 25px;
+  align-self: center;
+}
+.illusT {
+  align-self: flex-end;
+  margin-bottom: 25px;
+  font-style: unset !important;
+}
 .subIntro2 {
   flex: 2;
   display: flex;
@@ -17,19 +37,59 @@
   padding: 20px;
   font-family: "Forum", cursive;
   align-self: center;
+  align-content: center;
+  /*background: red;  */
+}
+.subIntro2 p {
+  font-style: italic;
+}
+
+.bookButton {
+  display: flex;
+  justify-content: center;
+  /*width:80%;*/
+  /*background: blue;*/
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.bookButton2 {
+  /*background: red!important;*/
+  width: 100%;
+  }
+.bookButton .fa {
+  margin-right: 10px;
+}
+.bookButton2 .fa {
+  margin: auto;
+}
+.bookButton a {
+  background: var(--myviolet2);
+  background: rgba(250, 250, 250, 0.1);
+  border: 1px solid var(--whiteish);
+  font-weight: 300;
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 12px;
+  font-style: none;
+  margin: 20px;
+  transform: scale(1);
+  transition: 0.5s;
+}
+.bookButton2 a {
+  /*padding: 10px;*/
+  margin: auto;
+  text-align: center;
+width: 65%;}
+.bookButton a:hover {
+  transform: scale(1.1);
+  background: var(--blackish);
+  color: var(--myviolet2);
 }
 
 .introLeft2 {
   flex: 1;
   align-items: center;
-}
-.introLeft2 img {
-  /*width: 100%;
-  max-width: 250px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
-  border-radius: 50% 7px;
-  padding: 6px;*/
-
 }
 
 .introRight2 {
@@ -51,25 +111,31 @@
 }
 
 .introRight2 p {
-  font-size: 22px;
-  margin: ;
+  font-size: 18px;
 }
 
 /*Book styling*/
 
 .bookWrap {
-  margin: 25px auto;
+  margin: 25px auto 25px -20px;
   height: 346px;
   width: 230px;
-
   position: relative;
-  background: #2D2C2C;
-
+  background: #2d2c2c;
   -webkit-perspective: 1200px;
   -moz-perspective: 1200px;
   perspective: 1200px;
-  box-shadow: 10px 0 20px -2px rgb(255,255,255,0.2);
+  box-shadow: 10px 0 20px -2px rgb(255, 255, 255, 0.2);
+}
 
+.book p {
+  position: absolute;
+  bottom: 62px;
+  letter-spacing: 3px;
+  right: -62px !important;
+  color: var(--blackish);
+  transform: rotate(-90deg);
+  font-style: unset;
 }
 
 .book {

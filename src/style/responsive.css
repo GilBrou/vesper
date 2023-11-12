@@ -17,7 +17,8 @@
 	.consulText {
 		max-width: 100%;
 	}
-	.subAboutDown {
+	.subAboutDown,
+	#livres {
 		max-width: 100% !important;
 	}
 	.intro {
@@ -25,6 +26,9 @@
 	}
 	.introLeft {
 		flex: 2;
+	}
+	#livres {
+		flex-direction: column;
 	}
 }
 
@@ -87,13 +91,16 @@
 	}
 
 	.introRight,
-	.subAboutDown {
+	.subAboutDown,
+	#livres .introRight2 {
 		margin: 0;
 		border-radius: 0px !important;
 		border: 6px solid rgb(255, 255, 255, 0.1);
+		border: unset;
 	}
 	.introLeft,
-	.subAboutDown {
+	.subAboutDown,
+	#livres .introRight2 {
 		width: 100%;
 	}
 	.subL {
