@@ -63,9 +63,36 @@ export default function Header(data) {
             href={data.data ? data.data.links.menu6L : "chargement..."}
             target="Blank_"
           >
-            {data.data ? data.data.menu.menu6 : "chargement..."}
+            <i className={data.data ? data.data.ressources.logoYT : "chargement..."}></i>
           </a>
         </li>
+
+
+        <li>
+          <a
+            href={data.data ? data.data.links.menu8L : "chargement..."}
+            target="Blank_"
+          >
+            <i className={data.data ? data.data.ressources.logoIG : "chargement..."}></i>
+          </a>
+        </li>
+
+
+        <li>
+          <a
+            href={data.data ? data.data.links.menu7L : "chargement..."}
+            target="Blank_"
+          >
+            <i className={data.data ? data.data.ressources.logoFB : "chargement..."}></i>
+          </a>
+        </li>
+
+            
+
+
+
+
+
       </ul>
     </header>
   );

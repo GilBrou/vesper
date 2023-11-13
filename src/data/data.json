@@ -2,7 +2,6 @@
   "nom": "Vesper Astria",
   "ressources": {
     "logoFB": "fa fa-facebook",
-    "logoTW": "fa fa-twitter",
     "logoIG": "fa fa-instagram",
     "logoYT": "fa fa-youtube"
   },
@@ -12,7 +11,9 @@
     "menu3": "À propos",
     "menu4": "Contact",
     "menu5": "Blog",
-    "menu6": "Youtube"
+    "menu6": "Youtube",
+    "menu7": "Facebook",
+    "menu8": "Instagram"
   },
   "links": {
     "menu0L": "#accueil",
@@ -21,7 +22,9 @@
     "menu3L": "#à-propos",
     "menu4L": "#contact",
     "menu5L": "https://vesperastria.wordpress.com/blog/",
-    "menu6L": "https://www.youtube.com/channel/UCrvbQLe1mwTxO8kjzyqzaLQ"
+    "menu6L": "https://www.youtube.com/channel/UCrvbQLe1mwTxO8kjzyqzaLQ",
+    "menu7L": "https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqbUNKVlJocDA5QzZnMFBXeWI3LXJOb1QxWlk2QXxBQ3Jtc0ttX3hjQ0I1REd6X3FBby1UOUtTa0RGYlVmTFg1ekItWkowc2RwZm5qMktZNDQ1WHFnQUtHeHlJTlNxSWpGTVdnbEtxdGpDSzlXZEZjOVNsTWtaWThFdXdXQ1pkbkN1SnFtcG0yVTgyN2padmcyTkNBcw&q=https%3A%2F%2Fwww.facebook.com%2FVesper-Astria-108417644634554%2F%3Fmodal%3Dsuggested_action%26notif_id%3D1618749796624111%26notif_t%3Dpage_user_activity%26ref%3Dnotif",
+    "menu8L": "https://www.instagram.com/vesperastria/"
   },
   "intro": {
     "p1": "Autrice et rêveuse à plein temps, je propose en taromancie des guidances générales en ligne sur ma chaîne YouTube mais également des guidances privées à distance et des thèmes astraux.",
