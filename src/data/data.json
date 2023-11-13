@@ -7,7 +7,7 @@
   },
   "menu": {
     "menu1": "Consultations",
-    "menu2": "Livres",
+    "menu2": "Livre",
     "menu3": "À propos",
     "menu4": "Contact",
     "menu5": "Blog",
@@ -18,7 +18,7 @@
   "links": {
     "menu0L": "#accueil",
     "menu1L": "#consultations",
-    "menu2L": "#livres",
+    "menu2L": "#livre",
     "menu3L": "#à-propos",
     "menu4L": "#contact",
     "menu5L": "https://vesperastria.wordpress.com/blog/",
