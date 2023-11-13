@@ -10,7 +10,7 @@
     "menu2": "Livre",
     "menu3": "À propos",
     "menu4": "Contact",
-    "menu5": "Blog"    
+    "menu5": "Blog"
   },
   "links": {
     "menu0L": "#accueil",
@@ -31,7 +31,6 @@
     "p5": "Bienvenue chez moi, et surtout chez vous, dans le ciel des étoiles du soir."
   },
   "consult": {
-    
     "C1Text": "Thème astral orienté",
     "C1Text2": "amour, travail, famille...",
     "C1Price": "à partir de 80€",
@@ -75,9 +74,9 @@
     "buyLink": "https://www.amazon.fr/Dark-Zodiac-cachent-signes-astrologiques/dp/B09V33YYPR",
     "buyLinkEbook": "https://www.amazon.fr/Dark-Zodiac-cachent-signes-astrologiques-ebook/dp/B09V87B1GS/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr="
   },
-  "contact": {    
-    "contactPara": "Vous pouvez me contacter en précisant l'offre d'astrologie ou de cartomancie qui vous intéresse, ainsi que les éléments s'y rapportant (Date, heure, lieu de naissance / photo / domaines), je vous répondrai alors dans les plus brefs délais afin que nous puissions échanger et préparer votre consultation ou votre thème astral",
+  "contact": {
+    "contactPara": "Vous pouvez me contacter en précisant l'offre d'astrologie ou de cartomancie qui vous intéresse, ainsi que les éléments s'y rapportant (date, heure, lieu de naissance / photo / domaines), je vous répondrai alors dans les plus brefs délais afin que nous puissions échanger et préparer votre consultation ou votre thème astral.",
     "contactButton": "Prenons contact",
-    "mail":"mailto:ndaprojects@outlook.fr"
+    "mail": "mailto:ndaprojects@outlook.fr"
   }
 }

@@ -47,7 +47,7 @@ export default function About(data) {
           {data.data1 ? data.data1.about.aboutP4 : "chargement..."}
           <i className="fa fa-quote-right" aria-hidden="true"></i>
         </p>
-        <img className="img2" src="/img/VesperLetter2.webp" alt="image" />
+        {/*<img className="img2" src="/img/VesperLetter2.webp" alt="image" />*/}
       </div>
     </section>
   );

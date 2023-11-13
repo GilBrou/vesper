@@ -1,11 +1,17 @@
 /***INTRO***/
 
 #contact {
-  height: fit-content;
+  /*height: fit-content;*/
   width: 70%;
+  min-height: 100vh;
   margin: auto;
-    font-size: 22px;
-  padding-bottom: 100px;
+  font-size: 22px;
+  padding-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding-top: 100px;
 }
 .contact {
 }
@@ -13,7 +19,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  ;
   padding: 20px;
   font-family: "Forum", cursive;
   align-self: center;
@@ -29,15 +34,50 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
 }
 
-.contactText p{
-  font-size: 22px!important
+.contactText p {
+  max-width: 90%;
+  margin-top: 50px;
+  align-self: center;
+  font-size: 22px !important;
 }
 
-
-.contacTitle {
+.contactText a {  
+  background: var(--myviolet2);
+  color :var(--blackish)!important;
+  width: 50%;
   font-family: "Courgette";
+  font-size: 22px !important;
   text-align: center;
   letter-spacing: 2px;
+  padding: 10px 20px;
+  text-decoration: none !important;
+  transform: scale(1);
+  transition: 0.5s;
+  align-self: center;
+  border-radius: 25px;
+  border: 1px solid rgba(250, 250, 250, 0.4);
+  margin: 50px auto 25px auto;
+}
+
+.contactText a:hover {
+  transform: scale(1.1)!important;
+  color: var(--myviolet2)!important;
+  background: var(--blackish);
+  
+
+}
+
+.contactText a p {
+}
+
+
+.contactText .img2 {
+  margin-top:15px;
+  max-width: 100%;
+  align-self: center;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
+  border-radius: 50px 50px 0 0;
 }

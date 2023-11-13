@@ -36,7 +36,7 @@
 .header a:selected,
 .header a:visited {
   color: var(--myviolet2);
-  text-decoration: none!important;
+  text-decoration: none !important;
 }
 #titleNav {
   font-size: 33px !important;
@@ -91,7 +91,7 @@
 .header .menu-btn:focus,
 .header .menu-btn:selected,
 .header .menu-btn:visited {
-  text-decoration: none!important;
+  text-decoration: none !important;
   backdrop-filter: blur(3px) brightness(8);
   -webkit-backdrop-filter: blur(3px) brightness(8);
 }
@@ -109,7 +109,7 @@
 .header li a:selected,
 .header li a:visited {
   color: var(--myviolet2) !important;
-  text-decoration: none!important;
+  text-decoration: none !important;
 }
 
 /* menu */
@@ -220,7 +220,7 @@
     text-transform: unset;
   }
   .header li:hover {
-    text-decoration: none!important;
+    text-decoration: none !important;
     backdrop-filter: unset;
     -webkit-backdrop-filter: unset;
   }
@@ -228,7 +228,7 @@
   .header li:hover a {
     color: var(--myviolet2);
     font-weight: normal;
-    text-decoration: none!important;
+    text-decoration: none !important;
   }
 
   .header .menu {
