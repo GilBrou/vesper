@@ -71,12 +71,21 @@ export default function Consult(data) {
           {data.data1 ? data.data1.consult.Ctitle2 : "chargement..."}
         </p>
         <p>
-          {data.data1 ? data.data1.consult.Cpara2 : "chargement..."}
+          {data.data1 ? data.data1.consult.Cpara2 : "chargement..."}{ }
           <a
             href={data.data1 ? data.data1.links.menu6L : "chargement..."}
             target="Blank_"
           >
             {data.data1 ? data.data1.consult.Cpara3 : "chargement..."}
+          </a>
+        </p>
+        <p>
+          {data.data1 ? data.data1.consult.Cpara4 : "chargement..."}{ }
+          <a
+            href={data.data1 ? data.data1.links.menu4L : "chargement..."}
+            target="Blank_"
+          >
+            {data.data1 ? data.data1.consult.Cpara5 : "chargement..."}
           </a>
         </p>
       </div>

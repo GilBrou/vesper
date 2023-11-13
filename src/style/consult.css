@@ -45,6 +45,7 @@
 }
 .consulText a {
   font-weight: bold !important;
+  margin-left: 6px;
 }
 
 .consult .consulText a:hover {
