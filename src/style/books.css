@@ -38,7 +38,6 @@
   font-family: "Forum", cursive;
   align-self: center;
   align-content: center;
-  /*background: red;  */
 }
 .subIntro2 p {
   font-style: italic;
@@ -61,7 +60,6 @@
   margin: auto;
 }
 .bookButton a {
-  /*  background: rgba(250, 250, 250, 0.1);*/
   border: 1px solid rgba(250, 250, 250, 0.4);
   font-weight: 300;
   padding: 5px;
@@ -73,14 +71,12 @@
   transition: 0.5s;
 }
 .bookButton2 a {
-  /*padding: 10px;*/
   margin: auto;
   text-align: center;
   width: 65%;
 }
 .bookButton a:hover {
   transform: scale(1.1);
-  /*background: var(--blackish);*/
   color: var(--myviolet2);
 }
 

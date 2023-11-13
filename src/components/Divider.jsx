@@ -1,7 +1,7 @@
-/******ABOUT DIVIDER******/
+/******DIVIDER******/
 
-/***COMPONENT***/
-export default function Divider(data) {    /*DOM*/
+export default function Divider(data) {
+  /*DOM*/
   return (
     <div className="h-divider">
       <div className="shadow" />

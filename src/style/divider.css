@@ -1,4 +1,3 @@
-
 /*DIVIDERS*/
 .h-divider {
   margin: auto;
@@ -23,12 +22,10 @@
 }
 
 .h-divider .text {
-  /*width: 200px;
-  height: 100px;*/
   padding: 10px;
-    position: absolute;
-    left: 50%;
-    bottom: 50%;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
   transform: translate(-50%, 45%);
   border-radius: 100%;
   box-shadow: 0 2px 4px var(--blackish);

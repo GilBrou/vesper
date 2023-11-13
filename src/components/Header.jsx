@@ -1,9 +1,6 @@
 /******HEADER MODULE******/
-
-/***COMPONENT***/
 export default function Header(data) {
   /*DOM*/
-
   return (
     <header className="header">
       <div>

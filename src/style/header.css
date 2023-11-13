@@ -73,7 +73,6 @@
 }
 
 .header li.liText {
-  /*color: red!important;*/
   padding-top: 12px;
 }
 
@@ -176,7 +175,6 @@
 }
 
 .header .menu-btn:checked ~ .menu {
-  /*max-height: 240px;*/
   height: fit-content;
   max-height: 500px;
 }

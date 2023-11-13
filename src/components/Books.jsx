@@ -1,7 +1,4 @@
 /******INTRO MODULE******/
-/*import {VesperPhoto} from "../../public/img/VesperAstria.webp"*/
-
-/***COMPONENT***/
 export default function Books(data) {
   /*DOM*/
   return (
@@ -55,7 +52,7 @@ export default function Books(data) {
             {data.data1 ? data.data1.book.subTitle : "chargement..."}
           </p>
         </div>
-        
+
         <p className="illusT">
           Illustrations :{" "}
           {data.data1 ? data.data1.book.Illustrations : "chargement..."}

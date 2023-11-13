@@ -1,5 +1,4 @@
 /******CONSULT MODULE******/
-/***COMPONENT***/
 export default function Consult(data) {
   /*DOM*/
   return (
@@ -71,7 +70,8 @@ export default function Consult(data) {
           {data.data1 ? data.data1.consult.Ctitle2 : "chargement..."}
         </p>
         <p>
-          {data.data1 ? data.data1.consult.Cpara2 : "chargement..."}{ }
+          {data.data1 ? data.data1.consult.Cpara2 : "chargement..."}
+          {}
           <a
             href={data.data1 ? data.data1.links.menu6L : "chargement..."}
             target="Blank_"
@@ -81,15 +81,14 @@ export default function Consult(data) {
           .
         </p>
         <p className="lastPara">
-          {data.data1 ? data.data1.consult.Cpara4 : "chargement..."}{ }
-          <a
-            href={data.data1 ? data.data1.links.menu4L : "chargement..."}            
-          >
-            {data.data1 ? data.data1.consult.Cpara5 : "chargement..."}{ }      
+          {data.data1 ? data.data1.consult.Cpara4 : "chargement..."}
+          {}
+          <a href={data.data1 ? data.data1.links.menu4L : "chargement..."}>
+            {data.data1 ? data.data1.consult.Cpara5 : "chargement..."}
+            {}
           </a>
           du site .
         </p>
-
       </div>
     </section>
   );

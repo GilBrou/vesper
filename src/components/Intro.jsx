@@ -1,7 +1,4 @@
 /******INTRO MODULE******/
-/*import {VesperPhoto} from "../../public/img/VesperAstria.webp"*/
-
-/***COMPONENT***/
 export default function Intro(data) {
   /*DOM*/
   return (

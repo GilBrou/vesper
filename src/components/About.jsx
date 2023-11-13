@@ -1,6 +1,5 @@
 /******ABOUT MODULE******/
 
-/***COMPONENT***/
 export default function About(data) {
   /*DOM*/
   return (
