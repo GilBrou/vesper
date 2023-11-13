@@ -31,7 +31,10 @@
   font-family: "Forum", cursive;
   font-weight: 400;
 }
-.header a:hover {
+.header a:hover .header a:active,
+.header a:focus,
+.header a:selected,
+.header a:visited {
   color: var(--myviolet2);
   text-decoration: none;
 }
@@ -63,6 +66,17 @@
   border-bottom: 1px solid rgb(250, 250, 250, 0.2);
 }
 
+.header li a.afa {
+  font-size: 26px;
+  align-self: center;
+  padding-top: 0;
+}
+
+.header li.liText {
+  /*color: red!important;*/
+  padding-top: 12px;
+}
+
 .header li:last-of-type {
   border: none;
 }
@@ -70,9 +84,13 @@
 .header li:hover,
 .header li:active,
 .header li:focus,
+.header li:selected,
+.header li:visited,
 .header .menu-btn:hover,
 .header .menu-btn:active,
-.header .menu-btn:focus {
+.header .menu-btn:focus,
+.header .menu-btn:selected,
+.header .menu-btn:visited {
   backdrop-filter: blur(3px) brightness(8);
   -webkit-backdrop-filter: blur(3px) brightness(8);
 }
@@ -84,9 +102,13 @@
   animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) /*1.2s */ both;
 }
 
-.header li:hover a {
-  color: var(--blackish);
-  font-weight: bold;
+.header li a:hover,
+.header li a:active,
+.header li a:focus,
+.header li a:selected,
+.header li a:visited {
+  color: var(--myviolet2) !important;
+  text-decoration: none;
 }
 
 /* menu */
@@ -153,7 +175,9 @@
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 240px;
+  /*max-height: 240px;*/
+  height: fit-content;
+  max-height: 500px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {

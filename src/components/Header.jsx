@@ -20,36 +20,36 @@ export default function Header(data) {
         <span className="navicon" />
       </label>
       <ul className="menu">
-        <li>
+        <li className="liText">
           <a href={data.data ? data.data.links.menu0L : "chargement..."}>
             Accueil
           </a>
         </li>
-        <li>
+        <li className="liText">
           <a href={data.data ? data.data.links.menu1L : "chargement..."}>
             {data.data ? data.data.menu.menu1 : "chargement..."}
           </a>
         </li>
 
-        <li>
+        <li className="liText">
           <a href={data.data ? data.data.links.menu2L : "chargement..."}>
             {data.data ? data.data.menu.menu2 : "chargement..."}
           </a>
         </li>
 
-        <li>
+        <li className="liText">
           <a href={data.data ? data.data.links.menu3L : "chargement..."}>
             {data.data ? data.data.menu.menu3 : "chargement..."}
           </a>
         </li>
 
-        <li>
+        <li className="liText">
           <a href={data.data ? data.data.links.menu4L : "chargement..."}>
             {data.data ? data.data.menu.menu4 : "chargement..."}
           </a>
         </li>
 
-        <li>
+        <li className="liText">
           <a
             href={data.data ? data.data.links.menu5L : "chargement..."}
             target="Blank_"
@@ -60,39 +60,45 @@ export default function Header(data) {
 
         <li>
           <a
+            className="afa"
             href={data.data ? data.data.links.menu6L : "chargement..."}
             target="Blank_"
           >
-            <i className={data.data ? data.data.ressources.logoYT : "chargement..."}></i>
+            <i
+              className={
+                data.data ? data.data.ressources.logoYT : "chargement..."
+              }
+            ></i>
           </a>
         </li>
 
-
         <li>
           <a
+            className="afa"
             href={data.data ? data.data.links.menu8L : "chargement..."}
             target="Blank_"
           >
-            <i className={data.data ? data.data.ressources.logoIG : "chargement..."}></i>
+            <i
+              className={
+                data.data ? data.data.ressources.logoIG : "chargement..."
+              }
+            ></i>
           </a>
         </li>
-
 
         <li>
           <a
+            className="afa"
             href={data.data ? data.data.links.menu7L : "chargement..."}
             target="Blank_"
           >
-            <i className={data.data ? data.data.ressources.logoFB : "chargement..."}></i>
+            <i
+              className={
+                data.data ? data.data.ressources.logoFB : "chargement..."
+              }
+            ></i>
           </a>
         </li>
-
-            
-
-
-
-
-
       </ul>
     </header>
   );

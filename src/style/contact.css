@@ -1,0 +1,38 @@
+/***INTRO***/
+
+#contact {
+  height: fit-content;
+  width: 70%;
+  margin: auto;
+    font-size: 22px;
+  padding-bottom: 100px;
+}
+.contact {
+}
+.contactText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  font-family: "Forum", cursive;
+  align-self: center;
+  border-right: 6px solid rgb(255, 255, 255, 0.1);
+  border-left: 6px solid rgb(255, 255, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
+  border-radius: 50px;
+  height: fit-content;
+  align-self: center;
+  text-align: justify;
+  background: url("./background/background2.webp");
+  background-color: var(--blackish);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.contacTitle {
+  font-family: "Courgette";
+  text-align: center;
+  letter-spacing: 2px;
+}
