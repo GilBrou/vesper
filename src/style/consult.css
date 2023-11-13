@@ -45,9 +45,13 @@
 }
 .consulText a {
   font-weight: bold !important;
-  margin-left: 6px;
-}
+  margin-left: 4px;
+  margin-right: 8px;
 
+}
+.lastPara{
+  margin: 15px auto;
+}
 .consult .consulText a:hover {
   color: var(--myviolet2);
   text-decoration: none;

@@ -1,6 +1,6 @@
 /***INTRO***/
 
-#livres {
+#livre {
   display: flex;
   align-self: center;
   flex-direction: row-reverse;

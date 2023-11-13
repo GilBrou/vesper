@@ -78,16 +78,18 @@ export default function Consult(data) {
           >
             {data.data1 ? data.data1.consult.Cpara3 : "chargement..."}
           </a>
+          .
         </p>
-        <p>
+        <p className="lastPara">
           {data.data1 ? data.data1.consult.Cpara4 : "chargement..."}{ }
           <a
-            href={data.data1 ? data.data1.links.menu4L : "chargement..."}
-            target="Blank_"
+            href={data.data1 ? data.data1.links.menu4L : "chargement..."}            
           >
-            {data.data1 ? data.data1.consult.Cpara5 : "chargement..."}
+            {data.data1 ? data.data1.consult.Cpara5 : "chargement..."}{ }      
           </a>
+          du site .
         </p>
+
       </div>
     </section>
   );
