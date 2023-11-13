@@ -1,10 +1,6 @@
 /******CONTACT MODULE******/
 
-/***COMPONENT***/
 export default function Contact(data) {
-  /*
-        
-        */
   /*DOM*/
   return (
     <section id="contact" className="contact">
