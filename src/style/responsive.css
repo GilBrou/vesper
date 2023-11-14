@@ -92,7 +92,8 @@
 
 	.introRight,
 	.subAboutDown,
-	#livre .introRight2 {
+	#livre .introRight2,
+	.contactText {
 		margin: 0;
 		border-radius: 0px !important;
 		border: 6px solid rgb(255, 255, 255, 0.1);
@@ -100,8 +101,14 @@
 	}
 	.introLeft,
 	.subAboutDown,
-	#livre .introRight2 {
+	#livre .introRight2,
+	#contact,
+	#contact a,.contactText p {
 		width: 100%;
+	}
+
+	#contact a,.contactText p {
+		max-width: 100%;
 	}
 	.subL {
 		letter-spacing: 4px;
